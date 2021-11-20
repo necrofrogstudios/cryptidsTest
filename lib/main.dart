@@ -101,7 +101,7 @@ class _HomeScreenState extends State<HomeScreen> {
               Image.network(
                   'https://i.pinimg.com/originals/1f/1a/2a/1f1a2ad5a16dd38f2ac1568315928f69.jpg'),
               ListView(
-                physics: AlwaysScrollableScrollPhysics(),
+                physics: NeverScrollableScrollPhysics(),
                 shrinkWrap: true,
                 children: newMyList.map((data) {
                   return Card(child: mainpagebutton(data));
