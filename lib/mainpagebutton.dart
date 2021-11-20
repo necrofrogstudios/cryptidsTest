@@ -2,16 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:like_button/like_button.dart';
 import 'infopage.dart';
 import 'favorites.dart';
+import 'data.dart';
 
 class mainpagebutton extends StatelessWidget {
   final Map data;
   mainpagebutton(this.data);
-
-  Future<bool> onLikeButtonTapped(bool isLiked) async {
-    likedCreatures.add(data);
-    data['isLiked'] = true;
-    return Future<bool>.value(true);
-  }
 
   Widget build(BuildContext context) {
     return Container(
@@ -47,7 +42,8 @@ class mainpagebutton extends StatelessWidget {
                       Positioned(
                         right: 5,
                         child: LikeButton(
-                          circleColor: CircleColor(start: Colors.pink, end: Colors.red),
+                          circleColor:
+                              CircleColor(start: Colors.pink, end: Colors.red),
                           bubblesColor: BubblesColor(
                             dotPrimaryColor: Colors.blue,
                             dotSecondaryColor: Colors.red,
@@ -71,5 +67,25 @@ class mainpagebutton extends StatelessWidget {
         ],
       ),
     );
+  }
+
+  Future<bool> onLikeButtonTapped(bool isLiked) async {
+    if (!data['isLiked']) {
+      isLiked = true;
+    } else {
+      isLiked = false;
+    }
+    if (isLiked) {
+      favoriteCreatures.add(data);
+      data['isLiked'] = true;
+    } else {
+      favoriteCreatures.remove(data);
+      data['isLiked'] = false;
+    }
+
+    for (int i = 0; i < favoriteCreatures.length; i++) {
+      print(favoriteCreatures[i]['title']);
+    }
+    return Future<bool>.value(isLiked);
   }
 }
