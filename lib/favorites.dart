@@ -75,9 +75,7 @@ class _FavoritesState extends State<Favorites> {
                   itemCount: newFavoriteCreatures.length,
                   physics: AlwaysScrollableScrollPhysics(),
                   itemBuilder: (context, index) {
-                    return Card(
-                      child: infopagelayout(newFavoriteCreatures[index]),
-                    );
+                    return infopagelayout(newFavoriteCreatures[index]);
                   },
                 ),
               ),
@@ -96,9 +94,7 @@ class _FavoritesState extends State<Favorites> {
       } else {
         newFavoriteCreatures = [];
         for (int i = 0; i < favoriteCreatures.length; i++) {
-          if (favoriteCreatures[i]['title']
-              .toLowerCase()
-              .contains(value.toLowerCase())) {
+          if (favoriteCreatures[i]['title'].toLowerCase().contains(value.toLowerCase())) {
             newFavoriteCreatures.add(favoriteCreatures[i]);
           }
         }

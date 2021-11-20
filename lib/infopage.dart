@@ -20,25 +20,20 @@ class _infoState extends State<infopage> {
   final currentScreen = _infoState;
 
   final ItemScrollController _itemScrollController = ItemScrollController();
-  final ItemPositionsListener itemPositionsListener =
-      ItemPositionsListener.create();
+  final ItemPositionsListener itemPositionsListener = ItemPositionsListener.create();
 
   void _scrollToIndex(int index) {
     if (index < 1) {
       _itemScrollController.jumpTo(index: index);
     } else {
       _itemScrollController.jumpTo(index: 0);
-      _itemScrollController.scrollTo(
-          index: index,
-          duration: Duration(milliseconds: 800),
-          curve: Curves.linear);
+      _itemScrollController.scrollTo(index: index, duration: Duration(milliseconds: 800), curve: Curves.linear);
     }
   }
 
   void initState() {
     super.initState();
-    WidgetsBinding.instance
-        .addPostFrameCallback((_) => _scrollToIndex(data['index']));
+    WidgetsBinding.instance.addPostFrameCallback((_) => _scrollToIndex(data['index']));
   }
 
   List<Map> newMyList = List.from(myList);
@@ -122,9 +117,7 @@ class _infoState extends State<infopage> {
                   itemCount: newMyList.length,
                   physics: AlwaysScrollableScrollPhysics(),
                   itemBuilder: (context, index) {
-                    return Card(
-                      child: infopagelayout(newMyList[index]),
-                    );
+                    infopagelayout(newMyList[index]);
                   },
                 ),
               ),
