@@ -60,6 +60,28 @@ List<Map> myList = [
   Barmanou,
   Basan,
   Basilisk,
+  Bast,
+  Beast_of_Bodmin,
+  Beast_of_Gevaudan,
+  Beast_of_Exmoor,
+  Behemoth,
+  Bennu,
+  Bicorn_and_Chichevache,
+  Bigfoot,
+  Biscione,
+  Bishop_Fish,
+  Black_Dog,
+  Black_Tortoise,
+  Blodeuwedd,
+  Bloody_Bones,
+  Blue_Mountains_Panther,
+  Bluecap,
+  Bogeyman,
+  Boggart,
+  Bonnacon,
+  Boto,
+  Brazen_Head,
+  British_big_cats,     
 ];
 
 List<Map> favoriteCreatures = [];
@@ -438,7 +460,247 @@ Map Basilisk = {
   'text': 'The Basilisk appeared in various forms throughout history. It started off as a small, crowned snake being able to kill with its lethal poison and evil gaze. The poison was so lethal, it left a wide trail of venom in its wake. Despite its cruel nature, it still represents power (and sometimes that of Hell in Christian mythology), thus it became the guardian creature and the traditional symbol of the Swiss city Basel. The basilisk is believed to be the most poisonous creature ever lived, there are tales where the basilisk was killed by a spear from horse-back, but the poison flowed upward and killed both the man and the ride. Its presence is so tainting, that not only herbs die of its terrible breath, but stones shatter as well. The basilisk\'s venom is so strong, that upon drinking from a well, the water remains polluted for centuries, bringing death to anyone drinking it. The basilisk can only be a male, for it must have the most proper receptacle of venom and destructive qualities. It’s is also said to be so evil that when it cannot petrify animals, it turns to plants, withering them anywhere it goes. Medieval travellers described it as a large, fire breathing creature with a terrifying roar. It soon be came described as a rooster with a serpent\'s tail and (occasionally) dragon wings. This shows similarities with the cockatrice, but there is one difference. The basilisk is said to be hatched from the egg of a rooster (yes, rooster, not chicken) and incubated by a toad, while the birthing process of a cockatrice is vica versa, a toad\'s egg hatched by a rooster. Another description of the basilisk is of a lizard with a rooster\'s head, the tail of a serpent and eight chicken legs. Based off of this, many modern depictions of a basilisk as a large, six- or eight-legged lizard, armed with a petrifying gaze. The tales about the basilisk being petrified by its own appearance in a mirror exist, but it can be slayed by other various methods. It is also vulnerable to the cockcrow of a rooster. This belief lead to travelers carrying roosters for self protection. Although, roosters never actually had the power to kill the Basilisk. It can also be stopped by the odor of a weasel. The villagers threw it in the pit (recognized by the dying vegetation nearby) of the basilisk in hope to get rid of the beast.',
   'index': 60
 };
-
+Map Bast = {
+  'image': 'blank',
+  'title': 'Bast',
+  'text': 'Bastet was the ancient Egyptian goddess of protection and cats. She was the warrior daughter and defender of Ra, who sent her to fight his archenemy Apep. As protectress, she was seen as defender of the pharaoh, after Sekhet, the lioness, and consequently of the chief god Ra. Bast is also known as Bastet, Ubasti, and Pasch. She was worshiped at least since the Second Dynasty in Ancient Egypt. The centre of her cult was in Per-Bast (Bubastis in Greek), which was named after her. Originally she was seen as the protector goddess of Lower Egypt and her image was that of a fierce lion. The name Bast means \'(female) devourer\'. In later times Bast became the goddess of protection and blessing and was the protectress of women, children and domestic cats. She was the goddess of sunrise, music, dance and pleasure as well as family, fertility and birth. When Anubis became the god of embalming, Bast, as goddess of ointment, was connected to him (sometimes viewed as his wife and sometimes as his mother) until Anubis became Nephthys\' son. This gentler characteristic, of Bast as goddess of perfumes, following Lower Egypt\'s loss in the wars between Upper and Lower Egypt, meant that in the Middle Kingdom of Egypt she became seen as a domestic cat and not as a lioness. Owing to associations with the maternal nature of cats, Bast was also regarded as a good mother and she was commonly depicted with kittens. Sometimes Egyptian women who wanted children wore an amulet showing the goddess with kittens; the number of kittens on the amulet would correspond to how many children the woman wanted to have.',
+  'index': 61
+};
+Map Beast_of_Bodmin = {
+  'image': 'blank',
+  'title': 'Beast of Bodmin',
+  'text': 'The Beast of Bodmin, also known as The Beast of Bodmin Moor is a phantom wild cat purported to live in Cornwall, in the United Kingdom. Bodmin Moor became a center of these sightings with occasional reports of mutilated slain livestock. The alleged panther-like cats of the same region came to be popularly known as the Beast of Bodmin Moor. The creature is panther-like, and black furred, and it stalks around Bodmin Moor in Cornwall, England, killing live stock. It\'s supposedly a phantom, because big cats shouldn\'t be in England\'s moors. A long held hypothesis suggests the possibility that alien big cats at large in the United Kingdom could have been imported as part of private collections or zoos, later escaped or set free. An escaped big cat would not be reported to the authorities due to the illegality of owning and importing the animals. The Ministry of Agriculture, Fisheries and Food conducted an official investigation in 1995. The study found that there was \'no verifiable evidence\' of exotic felines loose in Britain, and that the mauled farm animals could have been attacked by common indigenous species. The report stated that \'the investigation could not prove that a "big cat" is not present. Less than a week after the government report, a boy was walking by the River Fowey when he discovered a large cat skull. Measuring about 4 inches (10 cm) long by 7 inches (18 cm) wide, the skull was lacking its lower jaw but possessed two sharp, prominent canines that suggested that it might have been a leopard. The story hit the national press at about the same time of the official denial of alien big cat evidence on Bodmin Moor. The skull was sent to the Natural History Museum in London for verification. They determined that it was a genuine skull from a young male leopard, but also found that the cat had not died in Britain and that the skull had been imported as part of a leopard-skin rug. The back of the skull was cleanly cut off in a way that is commonly used to mount the head on a rug. There was an egg case inside the skull that had been laid by a tropical cockroach that could not possibly be found in Britain. There were also cut marks on the skull indicating the flesh had been scraped off with a knife, and the skull had begun to decompose only after a recent submersion in water.',
+  'index': 62
+};
+Map Beast_of_Gevaudan   = {
+  'image': 'blank',
+  'title': 'Beast of Gévaudan',
+  'text': 'The Beast of Gévaudan is the historical name associated with a man-eating animal or animals which terrorised the former province of Gévaudan (consisting of the modern-day department of Lozère and part of Haute-Loire), in the Margeride Mountains of south-central France between 1764 and 1767. The attacks, which covered an area spanning 90 by 80 kilometres (56 by 50 mi), were said to have been committed by one or more beasts with formidable teeth and immense tails, according to contemporary eyewitnesses. Most descriptions from the period identify the beast as a striped hyena, wolf, dog, or wolf-dog hybrid. Victims were often killed by having their throats torn out. The Kingdom of France used a considerable amount of money and manpower to hunt the animals responsible, including the resources of several nobles, soldiers, royal huntsmen, and civilians. The number of victims differs according to the source. A 1987 study estimated there had been 610 attacks, resulting in 500 deaths and 49 injuries; 98 of the victims killed were partly eaten. Other sources claim the animal or animals killed between 60 and 100 adults and children and injured more than 30. The beast was reported killed several times before the attacks finally stopped.',
+  'index': 63
+};
+Map Beast_of_Exmoor  = {
+  'image': 'blank',
+  'title': 'Beast of Exmoor',
+  'text': 'The Beast of Exmoor is a cryptozoological felid that is reported to roam the fields of Exmoor in Devon and Somerset in the United Kingdom. There have been numerous reports of eyewitness sightings, however the official Exmoor National Park website lists the beast under "Traditions, Folklore, and Legends", and the BBC calls it "the famous-yet-elusive beast of Exmoor."  Sightings were first reported in the 1970s, although it became notorious in 1983, when a South Molton farmer claimed to have lost over 100 sheep in the space of three months, all of them apparently killed by violent throat injuries. Descriptions of its coloration range from black to tan or dark grey. It is possibly a cougar or black leopard which was released sometime in the 1960s or 1970s after a law was passed making it illegal for them to be kept in captivity outside zoos. However, considering that cougar and leopard life spans are 12–15 years, this is unlikely. In 2006 the British Big Cats Society reported that a skull found by a Devon farmer was that of a puma, however the Department for Environment, Food and Rural Affairs (Defra) states that "Based on the evidence, Defra does not believe that there are big cats living in the wild in England." Eyewitness testimony has produced a number of different descriptions. Most accounts report the animal as being a large cat either resembling a puma or a panther. It is recorded as being somewhere between four and eight feet from nose to tail, standing very low to the ground, and as having the ability to leap over 6-foot-tall fences with ease. Descriptions of its coloration range from black to tan or dark grey. No such cat is native to England, and the variations in description have led some cryptozoologists to believe that there might be more than one creature. Sightings of the Beast of Exmoor were first reported in the 1970s, although the period of its notoriety began in 1983.There was even a report of the Beast seen "fishing" with its paw into the River Barle at Simonsbath, whilst some locals theorised that its lair might be in old mine workings on the Moor. The Daily Express offered a reward for the capture or slaying of the Beast. Farm animal deaths in the area have been sporadically blamed on the Beast ever since. Photographs have been produced on at least three occasions, one of which appeared in the West Somerset Free Press in 1989, taken by the Lewis Family of Blue Anchor, and all appear to show a big cat with the features of both a puma and a panther. Skeptics point out that such photographs invariably show the animal without any objects in frame that might give an indication of its size, leading to the suspicion that the photographs are of domestic cats. \'Photo 2\' is not very clear, and could well be a black dog, many say. With so many digital photography programs available, there is a possibility of deception.',
+  'index': 64
+};
+Map Behemoth = {
+  'image': 'blank',
+  'title': 'Behemoth',
+  'text': 'Behemoth is a beast from the biblical Book of Job, and is a form of the primeval chaos-monster created by God at the beginning of creation; he is paired with the other chaos-monster, Leviathan, and according to later Jewish tradition both would become food for the righteous at the end-time. Metaphorically, the name has come to be used for any extremely large or powerful entity.',
+  'index': 65
+};
+Map Bennu = {
+  'image': 'blank',
+  'title': 'Bennu',
+  'text': 'According to Egyptian mythology, Bennu was a self-created being said to have played a role in the creation of the world. He was said to be the ba of Ra and to have enabled the creative actions of Atum. The deity was said to have flown over the waters of Nun that existed before creation, landing on a rock and issuing a call that determined the nature of creation. He also was a symbol of rebirth and, therefore, was associated with Osiris. Some of the titles of Bennu were "He Who Came Into Being by Himself", and "Lord of Jubilees"; the latter epithet referred to the belief that Bennu periodically renewed himself like the sun was thought to do. His name is related to the Egyptian verb wbn, meaning "to rise in brilliance" or "to shine". ',
+  'index': 66
+};
+Map Bicorn_and_Chichevache  = {
+  'image': 'blank',
+  'title': 'Bicorn & Chichevache ',
+  'text': 'Bicorn and Chichevache are fabulous beasts that appear in European satirical works of the Middle Ages and Renaissance. Bicorn is a creature—often described as a part-panther, part-cow creature with a human-like face—that devours kind-hearted and devoted husbands and (because of their abundance) is plump and well fed. Chichevache, on the other hand, devours obedient wives and (because of their scarcity) is thin and starving.',
+  'index': 67
+};
+Map Bigfoot = {
+  'image': 'blank',
+  'title': 'Bigfoot',
+  'text': 'Bigfoot, also commonly referred to as Sasquatch, is an ape-like creature that is purported to inhabit the forests of North America. A prominent subject within Canadian and American folklore, supposed evidence of the existence of Bigfoot includes a number of anecdotal visual sightings as well as disputed video and audio recordings, photographs, and casts of large footprints. Some of these are speculated or known to be hoaxes. Bigfoot has become an icon within the fringe subculture of cryptozoology and an enduring element of popular culture. Folklorists trace the phenomenon of Bigfoot to a combination of factors and sources including the cultures of Indigenous people across the continent, the European wild man figure, and folk belief among loggers, miners, trappers, and prospectors. Wishful thinking, a cultural increase in environmental concerns, and overall societal awareness of the subject have been cited as additional factors. The majority of mainstream scientists have historically discounted the existence of Bigfoot, considering it to be the result of a combination of folklore, misidentification, and hoax, rather than a living animal. Other creatures of relatively similar descriptions are alleged to inhabit various regions throughout the world, such as the Skunk ape of the southeastern United States; the Almas, Yeren, and Yeti in Asia; and the Australian Yowie; all of which, like Bigfoot, are engrained in the cultures of their regions.',
+  'index': 68
+};
+Map Biscione = {
+  'image': 'blank',
+  'title': 'Biscione',
+  'text': 'The biscione, less commonly known also as the vipera ("viper"), is a heraldic charge showing on argent an azure serpent in the act of eating or giving birth to a human (usually a child and sometimes described as a Moor or an Ottoman Turk). It is a historic symbol of the city of Milan, used by companies based in the city.',
+  'index': 69
+};
+Map Bishop_Fish = {
+  'image': 'blank',
+  'title': 'Bishop Fish',
+  'text': 'The Sea bishop or Bishop-fish was a type of sea monster reported in the 16th century. According to legend, it was taken to the King of Poland, who wished to keep it. It was also shown to a group of Catholic bishops, to whom the bishop-fish gestured, appealing to be released. They granted its wish, at which point it made the sign of the cross and disappeared into the sea. When the bishop fish was angry, the sea would extend its lengthy arms, it is said, and the bishop fish would entrap a fisherman\'s boat. The bishop fish would then find the location of the sea-mans\' daughter and warp her to his lair. He would later, feast on the young female and absorb her energy, where then the bishop fish would send the carcass back to the fisherman. The storms would clear and leave the ocean at rest. Another was supposedly captured in the ocean near Germany in 1531. It refused to eat and died after three days. Since the Bishop-fish was caught in the same year as the Sea Monk, it is suggested the two are somehow related.',
+  'index': 70
+};
+Map Black_Dog  = {
+  'image': 'blank',
+  'title': 'Black Dog',
+  'text': 'The black dog is a supernatural, spectral or demonic entity from English folklore. It is usually unnaturally large with glowing red or yellow eyes, is often connected with the Devil (as an English incarnation of the Hellhound), and is sometimes an omen of death. It is sometimes associated with electrical storms, and also with crossroads, barrows (as a type of fairy hound), places of execution and ancient pathways. Black dogs are generally regarded as sinister or malevolent, and a few are said to be directly harmful. Some black dogs, however, such as the Gurt Dog in Somerset, are said to behave benevolently as guardian black dogs, guiding travellers at night onto the right path or protecting them from danger.',
+  'index': 71
+};
+Map Black_Tortoise  = {
+  'image': 'blank',
+  'title': 'Black Tortoise',
+  'text': 'The Black Tortoise or Black Turtle, known in Chinese as Xuanwu, is one of the Four Symbols of the Chinese constellations. Despite its English name, it is usually depicted as a turtle entwined together with a snake. Furthermore, in East Asian mythology it is not called after either animal, but is instead known as the "Black Warrior" under various local pronunciations. It is known as Xuanwu in Chinese. It represents the north and the winter season, thus it is sometimes called Black Tortoise of the North. In Japan, it’s named Genbu and is one of the four guardian spirits that protect Kyoto and it is said that it protects the city on the north. The creature\'s name is identical to that of the important Taoist god Xuanwu, who is sometimes (as in Journey to the West) portrayed in the company of a turtle and a snake.',
+  'index': 72
+};
+Map Blodeuwedd  = {
+  'image': 'blank',
+  'title': 'Blodeuwedd',
+  'text': 'Blodeuedd, also called Blodeuwedd, in the Welsh collection of stories called the Mabinogion, a beautiful girl fashioned from flowers as a wife for Lleu Llaw Gyffes. Lleu’s mother had put a curse on him that he would have no wife, and Blodeuedd was created to subvert the curse; she was unfaithful, however, and conspired with a lover to kill Lleu. The attempt failed and she was changed into an owl as a punishment.',
+  'index': 73
+};
+Map Bloody_Bones = {
+  'image': 'blank',
+  'title': 'Bloody Bones',
+  'text': 'Bloody Bones, often used in conjunction with his friend Rawhead, is a boogeyman of British folklore. Through the years, however, the story of Rawhead and Bloody Bones spread to North America and was figuratively adopted by the South. Due to the exposure, it is believed by many to be an originally Southern legend.vChildren that misbehaved were often threatened with a visit from Bloody Bones. The name "Bloody Bones" itself could understandably be enough to scare the bad behavior out of a young child. Bloody Bones is sometimes depicted as a pile of bloody bones, rattling to life as a headless horror on which a skinless head (Rawhead) would find its place. Other versions of the tale describe Bloody Bones as a skeletal being, bloody and stripped of most bodily tissue. In certain versions of the tale, Rawhead is the severed head of a butchered hog, who, after being brought to life by a vengeful witch, reunite with its scattered bones to find the hunter who had killed it. The abomination enters the hunter\'s home through the chimney and ultimately eats him alive. It is said that Bloody Bones\' favorite places to hide are in cupboards and under stairs; dark, musty places. Children who are brave enough to peek through a crack may see him, a bloody horror, waiting, crouched over a pile of small, child-like bones. The bones of children that misbehaved. If ever you should hear the sound of rattling bones at night, sourcing from the stairwell or your mother\'s dusty cupboard, it may be best not to peek inside.',
+  'index': 74
+};
+Map Blue_Mountains_Panther = {
+  'image': 'blank',
+  'title': 'Blue Mountains Panther',
+  'text': 'In Australian folklore, the Blue Mountains panther or Lithgow panther is a big cat said to exist by residents of the Blue Mountains area, west of Sydney, New South Wales, for over a century. Theories suggest the animal may be a descendant of big cats released by World War II US soldiers, which had been used as military mascots. Alternatively, accounts of big cats released by travelling circuses, or which had escaped circuses, exist; as well as rumours that big cats were available for black market purchase in New South Wales in the 20th century.',
+  'index': 75
+};
+Map Bluecap = {
+  'image': 'blank',
+  'title': 'Bluecap',
+  'text': 'A bluecap is a mythical fairy or ghost in English folklore that inhabits mines and appears as a small blue flame. If miners treat them with respect, the bluecaps lead them to rich deposits of minerals. Like knockers or kobolds, bluecaps can also forewarn miners of cave-ins. They are mostly associated with the Anglo-Scottish borders. They were hard workers and expected to be paid a working man\'s wages, equal to those of an average putter (a mine worker who pushes the wagons). Their payment was left in a solitary corner of the mine, and they would not accept any more or less than they were owed. The miners would sometimes see the flickering bluecap settle on a full tub of coal, transporting it as though "impelled by the sturdiest sinews". Another being of the same type (though less helpful in nature) was called Cutty Soames or Old Cutty Soames who was known to cut the rope-traces or soams by which the assistant putter was yoked to the tub.',
+  'index': 76
+};
+Map Bogeyman = {
+  'image': 'blank',
+  'title': 'Bogeyman',
+  'text': 'The Bogeyman is a type of mythic creature used by adults to frighten children into good behavior. Bogeymen have no specific appearance and conceptions vary drastically by household and culture, but they are most commonly depicted as masculine or androgynous monsters that punish children for misbehavior. The Bogeyman or conceptually similar monsters can be found in many cultures around the world. Bogeymen may target a specific act or general misbehaviour, depending on what purpose needs serving, often based on a warning from the child\'s authority figure. The term "Bogeyman" is sometimes used as a non-specific personification or metonym for terror, and in some cases, the Devil.',
+  'index': 77
+};
+Map Boggart = {
+  'image': 'blank',
+  'title': 'Boggart',
+  'text': 'Boggart is a term used for a creature in English folklore. It is generally a household spirit turned malevolent trickster or When a hobgoblin is teased or misused excessively, it will become a Boggart — creatures whose sole existence is to play tricks and cause trouble for people. They can be mischievous, frightening, and even dangerous, and they are very difficult to get rid of. Boggarts also tend to punish those who offend them and in some cases are trying to punish a human for injustice. Household boggarts can cause things to disappear, milk to sour, and dogs to go lame. Boggarts thought to live in marshes or swamps caused the disappearance of children. In some cases, boggarts were thought to be "buried", similar to vampires, with a stake driven through the body. The boggarts in Lancashire, England, were believed to have a leader known as Owd Hob, a horned, hooved creature similar in shape to a satyr. Boggarts vary in size and general appearance but many are depicted with humanoid features. Boggarts, though usually small, could be as big as a small calf. Some boggarts could take on the form of animals, such as horses.',
+  'index': 78
+};
+Map Bonnacon = {
+  'image': 'blank',
+  'title': 'Bonnacon',
+  'text': 'The bonnacon (also called bonasus or bonacho) is a legendary creature described as a bull with inward-curving horns and a horse-like mane. Medieval bestiaries usually depict its fur as reddish-brown or black.[1] Because its horns were useless for self-defense, the bonnacon was said to expel large amounts of caustic feces from its anus at its pursuers, burning them and thereby ensuring its escape.',
+  'index': 79
+};
+Map Boto = {
+  'image': 'blank',
+  'title': 'Boto',
+  'text': 'The \'boto\' of the Amazon River regions of northern Brazil, are described according to local lore as taking the form of a human or merman, also known as encantado ("enchanted one" in Portuguese) and with the habit of seducing human women and impregnating them.',
+  'index': 80
+};
+Map Brazen_Head = {
+  'image': 'blank',
+  'title': 'Brazen Head',
+  'text': 'A brazen head, brass, or bronze head was a legendary automaton in the early modern period whose ownership was ascribed to late medieval scholars, who had developed a reputation as wizards. Made of brass or bronze, the male head was variously mechanical or magical. Like Odin\'s head of Mimir in Norse paganism, it was reputed to be able to correctly answer any question put to it, although it was sometimes restricted to "yes" or "no" answers. In the seventeenth century, Thomas Browne considered them to be misunderstanding of the scholars\' alchemical work, while in modern times, Borlik argues that they came to serve as "a metonymy for the hubris of Renaissance intellectuals and artists". Idries Shah devotes a chapter of his book The Sufis to providing an interpretation of this "head of wisdom" as well as the phrase "making a head", stating that at its source the head "is none other than the symbol of the [Sufic] completed man."',
+  'index': 81
+};
+Map British_big_cats = {
+  'image': 'blank',
+  'title': 'British big cats',
+  'text': '',
+  'index': 82
+};
+v
+Map name = {
+  'image': 'blank',
+  'title': 'name',
+  'text': '',
+  'index': 83
+};
+Map name = {
+  'image': 'blank',
+  'title': 'name',
+  'text': '',
+  'index': 84
+};
+Map name = {
+  'image': 'blank',
+  'title': 'name',
+  'text': '',
+  'index': 85
+};
+Map name = {
+  'image': 'blank',
+  'title': 'name',
+  'text': '',
+  'index': 86
+};
+Map name = {
+  'image': 'blank',
+  'title': 'name',
+  'text': '',
+  'index': 87
+};
+Map name = {
+  'image': 'blank',
+  'title': 'name',
+  'text': '',
+  'index': 88
+};
+Map name = {
+  'image': 'blank',
+  'title': 'name',
+  'text': '',
+  'index': 89
+};
+Map name = {
+  'image': 'blank',
+  'title': 'name',
+  'text': '',
+  'index': 90
+};
+Map name = {
+  'image': 'blank',
+  'title': 'name',
+  'text': '',
+  'index': 91
+};
+Map name = {
+  'image': 'blank',
+  'title': 'name',
+  'text': '',
+  'index': 92
+};
+Map name = {
+  'image': 'blank',
+  'title': 'name',
+  'text': '',
+  'index': 93
+};
+Map name = {
+  'image': 'blank',
+  'title': 'name',
+  'text': '',
+  'index': 94
+};
+Map name = {
+  'image': 'blank',
+  'title': 'name',
+  'text': '',
+  'index': 95
+};
+Map name = {
+  'image': 'blank',
+  'title': 'name',
+  'text': '',
+  'index': 96
+};
+Map name = {
+  'image': 'blank',
+  'title': 'name',
+  'text': '',
+  'index': 97
+};
+Map name = {
+  'image': 'blank',
+  'title': 'name',
+  'text': '',
+  'index': 98
+};
+Map name = {
+  'image': 'blank',
+  'title': 'name',
+  'text': '',
+  'index': 99
+};
+Map name = {
+  'image': 'blank',
+  'title': 'name',
+  'text': '',
+  'index': 100
+};
 /*
 Map name = {
   'image': 'blank',
