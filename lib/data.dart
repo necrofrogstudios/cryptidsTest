@@ -104,6 +104,7 @@ List<Map> myList = [
   Catoblepas,
   Ceffyl_Dwr,
   Centaur,
+  Cerastes,
 ];
 
 List<Map> favoriteCreatures = [];
@@ -745,4 +746,10 @@ Map Centaur = {
   'title': 'Centaur',
   'text': 'Centaur, Greek Kentauros, in Greek mythology, a race of creatures, part horse and part man, dwelling in the mountains of Thessaly and Arcadia. Traditionally they were the offspring of Ixion, king of the neighbouring Lapiths, and were best known for their fight (centauromachy) with the Lapiths, which resulted from their attempt to carry off the bride of Pirithous, son and successor of Ixion. They lost the battle and were driven from Mount Pelion. In later Greek times they were often represented drawing the chariot of the wine god Dionysus or bound and ridden by Eros, the god of love, in allusion to their drunken and amorous habits. Their general character was that of wild, lawless, and inhospitable beings, the slaves of their animal passions. (The Centaur Chiron was not typical in this respect.) Centaurs may best be explained as the creation of a folktale in which wild inhabitants of the mountains and savage spirits of the forests were combined in half-human, half-animal form. In early art they were portrayed as human beings in front, with the body and hindlegs of a horse attached to the back; later, they were men only as far as the waist. They fought using rough branches of trees as weapons.',
   'index': 104
+};
+Map Cerastes = {
+  'image': 'blank',
+  'title': 'Cerastes',
+  'text': 'The cerastes is a creature of Greek legend, a serpent that is incredibly flexible—so much so that it is said to have no spine. Cerastae can have either two large ram-like horns or two pairs of smaller horns. The cerastes hides its head in the sand with only the horns protruding out of the surface; this is meant to deceive other animals into thinking it is food. When the animal approaches the cerastes, the cerastes promptly kills it. The legend is most likely derived from the habits of the horned viper, whose genus, Cerastes, is named after the mythological creature. They are desert-dwelling animals, which can have horn-like protrusions over their eyes, and are ambush predators, though not nearly large enough to take prey items much larger than a mouse or small lizard. Leonardo da Vinci wrote the following on the cerastes: This has four movable little horns; so, when it wants to feed, it hides under leaves all of its body except these little horns which, as they move, seem to the birds to be some small worms at play. Then they immediately swoop down to pick them and the Cerastes suddenly twines round them and encircles and devours them.',
+  'index': 105
 };
