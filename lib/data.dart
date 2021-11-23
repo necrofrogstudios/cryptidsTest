@@ -81,7 +81,29 @@ List<Map> myList = [
   Bonnacon,
   Boto,
   Brazen_Head,
-  British_big_cats,     
+  British_big_cats,
+  Brownie,
+  Bugbear,
+  Buggane,
+  Bukit_timah_monkey_man,
+  Bunyip,
+  Buraq,
+  Bludnik,
+  Cactus_Cat,
+  Cadborosaurus,
+  Cai_Cai_vilu,
+  Cait_Sidhe,
+  Caladrius,
+  Callisto,
+  Calydonian_Boar,
+  Camazotz,
+  Camenae,
+  Capricornus,
+  Carbuncle,
+  Cath_Palug,
+  Catoblepas,
+  Ceffyl_Dwr,
+  Centaur,
 ];
 
 List<Map> favoriteCreatures = [];
@@ -472,13 +494,13 @@ Map Beast_of_Bodmin = {
   'text': 'The Beast of Bodmin, also known as The Beast of Bodmin Moor is a phantom wild cat purported to live in Cornwall, in the United Kingdom. Bodmin Moor became a center of these sightings with occasional reports of mutilated slain livestock. The alleged panther-like cats of the same region came to be popularly known as the Beast of Bodmin Moor. The creature is panther-like, and black furred, and it stalks around Bodmin Moor in Cornwall, England, killing live stock. It\'s supposedly a phantom, because big cats shouldn\'t be in England\'s moors. A long held hypothesis suggests the possibility that alien big cats at large in the United Kingdom could have been imported as part of private collections or zoos, later escaped or set free. An escaped big cat would not be reported to the authorities due to the illegality of owning and importing the animals. The Ministry of Agriculture, Fisheries and Food conducted an official investigation in 1995. The study found that there was \'no verifiable evidence\' of exotic felines loose in Britain, and that the mauled farm animals could have been attacked by common indigenous species. The report stated that \'the investigation could not prove that a "big cat" is not present. Less than a week after the government report, a boy was walking by the River Fowey when he discovered a large cat skull. Measuring about 4 inches (10 cm) long by 7 inches (18 cm) wide, the skull was lacking its lower jaw but possessed two sharp, prominent canines that suggested that it might have been a leopard. The story hit the national press at about the same time of the official denial of alien big cat evidence on Bodmin Moor. The skull was sent to the Natural History Museum in London for verification. They determined that it was a genuine skull from a young male leopard, but also found that the cat had not died in Britain and that the skull had been imported as part of a leopard-skin rug. The back of the skull was cleanly cut off in a way that is commonly used to mount the head on a rug. There was an egg case inside the skull that had been laid by a tropical cockroach that could not possibly be found in Britain. There were also cut marks on the skull indicating the flesh had been scraped off with a knife, and the skull had begun to decompose only after a recent submersion in water.',
   'index': 62
 };
-Map Beast_of_Gevaudan   = {
+Map Beast_of_Gevaudan = {
   'image': 'blank',
   'title': 'Beast of Gévaudan',
   'text': 'The Beast of Gévaudan is the historical name associated with a man-eating animal or animals which terrorised the former province of Gévaudan (consisting of the modern-day department of Lozère and part of Haute-Loire), in the Margeride Mountains of south-central France between 1764 and 1767. The attacks, which covered an area spanning 90 by 80 kilometres (56 by 50 mi), were said to have been committed by one or more beasts with formidable teeth and immense tails, according to contemporary eyewitnesses. Most descriptions from the period identify the beast as a striped hyena, wolf, dog, or wolf-dog hybrid. Victims were often killed by having their throats torn out. The Kingdom of France used a considerable amount of money and manpower to hunt the animals responsible, including the resources of several nobles, soldiers, royal huntsmen, and civilians. The number of victims differs according to the source. A 1987 study estimated there had been 610 attacks, resulting in 500 deaths and 49 injuries; 98 of the victims killed were partly eaten. Other sources claim the animal or animals killed between 60 and 100 adults and children and injured more than 30. The beast was reported killed several times before the attacks finally stopped.',
   'index': 63
 };
-Map Beast_of_Exmoor  = {
+Map Beast_of_Exmoor = {
   'image': 'blank',
   'title': 'Beast of Exmoor',
   'text': 'The Beast of Exmoor is a cryptozoological felid that is reported to roam the fields of Exmoor in Devon and Somerset in the United Kingdom. There have been numerous reports of eyewitness sightings, however the official Exmoor National Park website lists the beast under "Traditions, Folklore, and Legends", and the BBC calls it "the famous-yet-elusive beast of Exmoor."  Sightings were first reported in the 1970s, although it became notorious in 1983, when a South Molton farmer claimed to have lost over 100 sheep in the space of three months, all of them apparently killed by violent throat injuries. Descriptions of its coloration range from black to tan or dark grey. It is possibly a cougar or black leopard which was released sometime in the 1960s or 1970s after a law was passed making it illegal for them to be kept in captivity outside zoos. However, considering that cougar and leopard life spans are 12–15 years, this is unlikely. In 2006 the British Big Cats Society reported that a skull found by a Devon farmer was that of a puma, however the Department for Environment, Food and Rural Affairs (Defra) states that "Based on the evidence, Defra does not believe that there are big cats living in the wild in England." Eyewitness testimony has produced a number of different descriptions. Most accounts report the animal as being a large cat either resembling a puma or a panther. It is recorded as being somewhere between four and eight feet from nose to tail, standing very low to the ground, and as having the ability to leap over 6-foot-tall fences with ease. Descriptions of its coloration range from black to tan or dark grey. No such cat is native to England, and the variations in description have led some cryptozoologists to believe that there might be more than one creature. Sightings of the Beast of Exmoor were first reported in the 1970s, although the period of its notoriety began in 1983.There was even a report of the Beast seen "fishing" with its paw into the River Barle at Simonsbath, whilst some locals theorised that its lair might be in old mine workings on the Moor. The Daily Express offered a reward for the capture or slaying of the Beast. Farm animal deaths in the area have been sporadically blamed on the Beast ever since. Photographs have been produced on at least three occasions, one of which appeared in the West Somerset Free Press in 1989, taken by the Lewis Family of Blue Anchor, and all appear to show a big cat with the features of both a puma and a panther. Skeptics point out that such photographs invariably show the animal without any objects in frame that might give an indication of its size, leading to the suspicion that the photographs are of domestic cats. \'Photo 2\' is not very clear, and could well be a black dog, many say. With so many digital photography programs available, there is a possibility of deception.',
@@ -496,7 +518,7 @@ Map Bennu = {
   'text': 'According to Egyptian mythology, Bennu was a self-created being said to have played a role in the creation of the world. He was said to be the ba of Ra and to have enabled the creative actions of Atum. The deity was said to have flown over the waters of Nun that existed before creation, landing on a rock and issuing a call that determined the nature of creation. He also was a symbol of rebirth and, therefore, was associated with Osiris. Some of the titles of Bennu were "He Who Came Into Being by Himself", and "Lord of Jubilees"; the latter epithet referred to the belief that Bennu periodically renewed himself like the sun was thought to do. His name is related to the Egyptian verb wbn, meaning "to rise in brilliance" or "to shine". ',
   'index': 66
 };
-Map Bicorn_and_Chichevache  = {
+Map Bicorn_and_Chichevache = {
   'image': 'blank',
   'title': 'Bicorn & Chichevache ',
   'text': 'Bicorn and Chichevache are fabulous beasts that appear in European satirical works of the Middle Ages and Renaissance. Bicorn is a creature—often described as a part-panther, part-cow creature with a human-like face—that devours kind-hearted and devoted husbands and (because of their abundance) is plump and well fed. Chichevache, on the other hand, devours obedient wives and (because of their scarcity) is thin and starving.',
@@ -520,19 +542,19 @@ Map Bishop_Fish = {
   'text': 'The Sea bishop or Bishop-fish was a type of sea monster reported in the 16th century. According to legend, it was taken to the King of Poland, who wished to keep it. It was also shown to a group of Catholic bishops, to whom the bishop-fish gestured, appealing to be released. They granted its wish, at which point it made the sign of the cross and disappeared into the sea. When the bishop fish was angry, the sea would extend its lengthy arms, it is said, and the bishop fish would entrap a fisherman\'s boat. The bishop fish would then find the location of the sea-mans\' daughter and warp her to his lair. He would later, feast on the young female and absorb her energy, where then the bishop fish would send the carcass back to the fisherman. The storms would clear and leave the ocean at rest. Another was supposedly captured in the ocean near Germany in 1531. It refused to eat and died after three days. Since the Bishop-fish was caught in the same year as the Sea Monk, it is suggested the two are somehow related.',
   'index': 70
 };
-Map Black_Dog  = {
+Map Black_Dog = {
   'image': 'blank',
   'title': 'Black Dog',
   'text': 'The black dog is a supernatural, spectral or demonic entity from English folklore. It is usually unnaturally large with glowing red or yellow eyes, is often connected with the Devil (as an English incarnation of the Hellhound), and is sometimes an omen of death. It is sometimes associated with electrical storms, and also with crossroads, barrows (as a type of fairy hound), places of execution and ancient pathways. Black dogs are generally regarded as sinister or malevolent, and a few are said to be directly harmful. Some black dogs, however, such as the Gurt Dog in Somerset, are said to behave benevolently as guardian black dogs, guiding travellers at night onto the right path or protecting them from danger.',
   'index': 71
 };
-Map Black_Tortoise  = {
+Map Black_Tortoise = {
   'image': 'blank',
   'title': 'Black Tortoise',
   'text': 'The Black Tortoise or Black Turtle, known in Chinese as Xuanwu, is one of the Four Symbols of the Chinese constellations. Despite its English name, it is usually depicted as a turtle entwined together with a snake. Furthermore, in East Asian mythology it is not called after either animal, but is instead known as the "Black Warrior" under various local pronunciations. It is known as Xuanwu in Chinese. It represents the north and the winter season, thus it is sometimes called Black Tortoise of the North. In Japan, it’s named Genbu and is one of the four guardian spirits that protect Kyoto and it is said that it protects the city on the north. The creature\'s name is identical to that of the important Taoist god Xuanwu, who is sometimes (as in Journey to the West) portrayed in the company of a turtle and a snake.',
   'index': 72
 };
-Map Blodeuwedd  = {
+Map Blodeuwedd = {
   'image': 'blank',
   'title': 'Blodeuwedd',
   'text': 'Blodeuedd, also called Blodeuwedd, in the Welsh collection of stories called the Mabinogion, a beautiful girl fashioned from flowers as a wife for Lleu Llaw Gyffes. Lleu’s mother had put a curse on him that he would have no wife, and Blodeuedd was created to subvert the curse; she was unfaithful, however, and conspired with a lover to kill Lleu. The attempt failed and she was changed into an owl as a punishment.',
@@ -588,124 +610,195 @@ Map Brazen_Head = {
 };
 Map British_big_cats = {
   'image': 'blank',
-  'title': 'British big cats',
-  'text': '',
+  'title': 'British Big Cats',
+  'text': 'In British folklore, British big cats, also referred to as ABCs (Alien, or Anomalous, Big Cats), phantom cats and mystery cats, feature in reported sightings of large felids in the British countryside. These creatures have been described as "panthers", "pumas" or "black cats". A fringe theory suggests that the animals may be surviving Ice Age fauna where leopards, scimitar-toothed cats, lions, and lynxs had been found in British Isles. However, the existence of a population of true big cats in Britain, especially a breeding population, is believed to be highly implausible by experts owing to lack of convincing evidence. There have been some incidents of recovered individual animals, often medium-sized species such as the Eurasian lynx, but in one 1980 case a puma was captured alive in Scotland. These are generally believed to have been escaped or released pets that had been held illegally, possibly released after the animals became too difficult to manage. Sightings at a distance may possibly be explicable as domestic cats seen near to a viewer being misinterpreted as larger animals seen farther away. In his 2013 book Feral, George Monbiot argues that humans are programmed to notice things that might be big cats because of the threat they posed in prehistoric times. Some believe that the introduction of Dangerous Wild Animals Act 1976 might have resulted in releases of captive animals into the wild.',
   'index': 82
 };
-v
-Map name = {
+Map Brownie = {
   'image': 'blank',
-  'title': 'name',
-  'text': '',
+  'title': 'Brownie',
+  'text': 'Brownie, in English and Scottish folklore, a small, industrious fairy or hobgoblin believed to inhabit houses and barns. Rarely seen, he was often heard at night, cleaning and doing housework; he also sometimes mischievously disarranged rooms. He would ride for the midwife, and in Cornwall he caused swarming bees to settle quickly. Cream or bread and milk might be left for him, but other gifts offended him. If one made him a suit of clothes, he would put it on and then vanish, never to return. The boggart of Yorkshire and the bogle of Scotland are hostile, mischievous brownies indistinguishable from poltergeists.',
   'index': 83
 };
-Map name = {
+Map Bugbear = {
   'image': 'blank',
-  'title': 'name',
-  'text': '',
+  'title': 'Bugbear',
+  'text': 'The Bugbear is a dangerous Goblin-like or Bogey-like creature that was fond of eating children. As the name suggests, the Bugbear had the shape of a large bear. Stories of the Bugbear were used to scare children in English and Scottish tales. The name derives from the old Celtic word ‘bug’ which means an evil Goblin. During the medieval period people said that the Bugbear was a monstrous bear-monster that lurked in the woods and would capture and eat any children that wandered in there on their own. A bugbear is a medium humanoid, rising to the the same height as a human, though preferring to hunt and stalk with a stoop that make it look considerably shorter and more bestial. Short, dark fur spreads all across its powerful, hulking frame. Its large ears hang loosely from its skull, and its eyes are unnaturally large - almost alien. It is not unusual for bugbears to reach nearly 7 feet in height and always weigh more than humans, some even reaching 400 pounds. Bugbears can be found anywhere their favorite prey huddles away from the dark in fear. Bugbears originally stalked the woodlands that once covered much of England; that were dominated by the humans. Humans are bugbears\' favored prey, and bugbears used to be particularly populous in the Scottish regions of the Moor Forests before the humans started to hunt them to extinction. Now bugbears lurk hidden near wherever there are humans, from the darkened forest at the edge of a village, to the shadowy abandoned house, long forgotten with time. Though they will follow humans anywhere, they do seem to prefer temperate regions of England and Scotland (based on myth). Bugbears are particularly common in the barely settled wilderness of the Scottish Moor, where they now prey on lonely homesteads.',
   'index': 84
 };
-Map name = {
+Map Buggane = {
   'image': 'blank',
-  'title': 'name',
-  'text': '',
+  'title': 'Buggane',
+  'text': 'The Buggane, in Manx legend, is an bulky subterranean creature with features akin to those of a mole. It is said to be in bodily appearance similar to a hairy version of the Scandinavian troll, with glowing eyes and massive tusks. Bugganes, as magical creatures, can not cross running water or tread on hallowed ground. Occasionally, fairies may use Bugganes as a sort of hired muscle, having them punish people who have offended them. One famous example of a Buggane from a local story is with the Buggane of St. Trinian’s Church. When St. Trinian’s Church was being constructed, a Buggane decided that if it was fully built, its bells would disturb its sleep. So, for three nights in a row, it threw the roof off of the church. Even though it was defeated, the roof was never put back on, and you can visit the roofless church even today.',
   'index': 85
 };
-Map name = {
+Map Bukit_timah_monkey_man = {
   'image': 'blank',
-  'title': 'name',
-  'text': '',
+  'title': 'Bukit-timah monkey man ',
+  'text': 'The Bukit Timah Monkey Man, commonly abbreviated as BTM or BTMM, is a legendary creature said to inhabit Singapore, chiefly in the forested Bukit Timah region. The creature is often cited as a forest-dwelling hominid or primate, and is also accounted for as being immortal; however, its exact identity remains unknown, and its existence disputed. Documentation of the BTM is sparse and scattered; the creature is largely considered a product of local folklore. Alleged sightings of the animal are rare. Records mainly come from Malay folklore, accounts from Japanese soldiers in World War II, and occasional unconfirmed reports from local residents. The first claimed sighting is said to have occurred in about 1805; the most recent was in 2007. The BTM is said to be hominid-like, greyish in colour, and between one and two metres (3 to 6 feet) in height, with a bipedal gait. All sightings have been centred upon the Bukit Timah region.',
   'index': 86
 };
-Map name = {
+Map Bunyip = {
   'image': 'blank',
-  'title': 'name',
-  'text': '',
+  'title': 'Bunyip',
+  'text': 'Bunyip, in Australian Aboriginal folklore, a legendary monster said to inhabit the reedy swamps and lagoons of the interior of Australia. The amphibious animal was variously described as having a round head, an elongated neck, and a body resembling that of an ox, hippopotamus, or manatee; some accounts gave it a human figure. The bunyip purportedly made booming or roaring noises and was given to devouring human prey, especially women and children. The origin of the belief probably lies in the rare appearance of fugitive seals far upstream; the monster’s alleged cry may be that of the bittern marsh bird.',
   'index': 87
 };
-Map name = {
+Map Buraq = {
   'image': 'blank',
-  'title': 'name',
-  'text': '',
+  'title': 'Buraq',
+  'text': 'The Burāq is a creature in Islamic tradition that was said to be a transport for certain prophets. Most notably hadith accounts about the Isra and Mi\'raj recount that the Buraq carried the Islamic prophet Muhammad from Mecca to Jerusalem and up in the heavens and back by night.',
   'index': 88
 };
-Map name = {
+Map Bludnik = {
   'image': 'blank',
-  'title': 'name',
-  'text': '',
+  'title': 'Błudnik',
+  'text': 'Błudnik is a demon in Slavic mythology, that dwells in the region of Łużyce. It was said to be a mischievous gnome who used to lead people astray and decoy them into swamps.',
   'index': 89
 };
-Map name = {
+Map Cactus_Cat = {
   'image': 'blank',
-  'title': 'name',
-  'text': '',
+  'title': 'Cactus Cat',
+  'text': 'The cactus cat is a legendary fearsome critter of the American Southwest. The cactus cat was generally described being a Lion-like creature, covered in hair-like thorns, with particularly long spines extending from the legs and its armored, branching tail. The creature was said to use its spines to slash cacti at night, allowing juice to run from the plants. On later nights, the creature was said to return to drink the now fermented juice. The then-drunken creature was said to meow at doorsteps during the night. The cactus cat was a very hostile creature towards any animal lion their territory. Animals that crossed them often ended up with large puncture wounds, and sometimes fatal injuries. It was a desert predator. To avoid the harsh heat, they\'d carve out the inside of a cactus and sleep through the day. It eats the bugs and juice of the cactus, keeping it hydrated. They were said to be immune to scorpion venom and would hunt them at night. Cactus cats were social animals, often mating for life. They were said to live about 20 to 30 years. Before and during mating season, the male felines would break open a large Saguaro cactus and let the smell attract females to the location. Often enough, two females would be attracted to the scent, and fight. The fight usually ended in one of them getting brutally spiked or stabbed to death. The winning female would then meet with the male and drink the cactus juice. The pair would get drunk and then produce a litter of kittens within the next few weeks. The kittens were born blind at birth with no spikes.',
   'index': 90
 };
-Map name = {
+Map Cadborosaurus = {
   'image': 'blank',
-  'title': 'name',
-  'text': '',
+  'title': 'Cadborosaurus',
+  'text': 'Cadborosaurus, nicknamed Caddy named by journalist Archie Wills, is a sea serpent in the folklore of regions of the Pacific Coast of North America. Its name is derived from Cadboro Bay in Greater Victoria, British Columbia, and the Greek root word "saurus" meaning lizard or reptile.',
   'index': 91
 };
-Map name = {
+Map Cai_Cai_vilu = {
   'image': 'blank',
-  'title': 'name',
-  'text': '',
+  'title': 'Cai Cai-vilu',
+  'text': 'According to the Mapuche, these two snakes were originally the children of the most powerful pillans, who were converted into their animal forms as punishment. Peripillán\'s son was turned into a huge snake that would be Caicai and Antu\'s son turned into a huge snake that would be Tenten. They were to be enemies, just as Antu and Peripillán were. Caicai was sent to live in the sea to help care for it with the Ngen-ko (water spirits), and Tenten was sent to live on earth to help care for the earth with the other Ngen, and to help humanity; thus these two snakes were used as an instrument through which the will of the ancient Mapuche spirits was fulfilled. It is said that after Caicai awoke from his years-long slumber, he became enraged because of the ungratefulness that men showed for every gift given to them by the sea, and desired to punish humanity and to incorporate all terrestrial life to his dominions. Caicai used his fish-shaped tail to hit the water, causing a great flood, since Caicai ordered the waters to flood the valleys and hills, and to bring all its inhabitants to the bottom of the sea. Humans invoked the help of Tenten, who saw that both humans and animals were desperate. By order of her father, she was the one who had to provide them with wisdom and protection, so she decided to help humanity. She helped the people and the animals to escape by raising them on her back and taking them to the hills; and she transformed into birds those who were trapped by the waters, so they could escape by flying; those who were drowning into fish and marine mammals (one of them being the origin of the cahuelche (talking dolphin)), and those who had already drowned into sumpall (Mapuche mermen and mermaids). Those who were immobilized by the terror they felt, were transformed into mankial (petrified). But as the sea continued to rise, Tenten had to order the hills to increase in height to counteract the power of Caicai. Angry, Caicai began to fight against Tenten in a titanic battle that lasted a long time, until both snakes were tired. Caicai was partially defeated as he wasn\'t able to flood all the land, however, the waters did not return completely to their old level, giving Chile its current geography. According to Chiloé tradition, Caicai was satisfied with the portion of land that he had managed to flood, and delegated his functions pertaining to the sea to the great Millalobo. According to Mapuche tradition, after the cataclysm, everyone continued their quiet life; until one day it was Tenten who was angered by the attitude that men had, and made all the volcanoes erupt and the population had to move to other safer places. From that moment on, Tenten continues to manifest itself through earthquakes and volcanic eruptions, while Caicai causes tidal waves and floods when he rolls over during his sleep.',
   'index': 92
 };
-Map name = {
+Map Cait_Sidhe = {
   'image': 'blank',
-  'title': 'name',
-  'text': '',
+  'title': 'Cait Sidhe',
+  'text': 'The cat-sìth, in Irish cat sí is a fairy creature from Celtic mythology, said to resemble a large black cat with a white spot on its chest. Legend has it that the spectral cat haunts the Scottish Highlands. The legends surrounding this creature are more common in Scottish folklore, but a few occur in Irish. Some common folklore suggested that the cat-sìth was not a fairy, but a witch that could transform into a cat nine times. The cat-sìth may have been inspired by the Scottish wildcat itself. It is possible that the legends of the cat-sìth were inspired by Kellas cats, which are a distinctive hybrid between Scottish wildcats and domestic cats found only in Scotland (the Scottish wildcat is a population of the European wildcat, which is absent from elsewhere in the British Isles).',
   'index': 93
 };
-Map name = {
+Map Caladrius = {
   'image': 'blank',
-  'title': 'name',
-  'text': '',
+  'title': 'Caladrius',
+  'text': 'The Caladrius, according to Roman mythology, is a snow-white bird that lives in the king\'s house. It is said to be able to take the sickness into itself and then fly away, dispersing the sickness and healing both itself and the sick person. The caladrius legend formed part of medieval bestiary materials, which typically provided a Christian moralization for the animals they discussed.',
   'index': 94
 };
-Map name = {
+Map Callisto = {
   'image': 'blank',
-  'title': 'name',
-  'text': '',
+  'title': 'Callisto',
+  'text': 'In Greek mythology, Callisto or Kallisto was a nymph, or the daughter of King Lycaon; the myth varies in such details. She was one of the followers of Artemis (Diana for the Romans) who attracted Zeus. According to some writers, Zeus transformed himself into the figure of Artemis to lure Callisto and seduce her. She became pregnant and when this was eventually discovered, she was expelled from Artemis\'s group, after which a furious Hera, the wife of Zeus, transformed her into a bear. Later, just as she was about to be killed by her son when he was hunting, she was set among the stars as Ursa Major ("the Great Bear"). She was the bear-mother of the Arcadians, through her son Arcas by Zeus. The fourth Galilean moon of Jupiter and a main belt asteroid are named after Callisto.',
   'index': 95
 };
-Map name = {
+Map Calydonian_Boar = {
   'image': 'blank',
   'title': 'name',
-  'text': '',
+  'text': 'The Calydonian Boar was a monster in Greek mythology that existed during the Olympian Age. It was sent by goddess Artemis to destroy the region of Calydon, which was in the central-west part of Greece. Every year, Oeneus, the king of the region, would make sacrifices to the gods, offering them a percentage of the harvest. It all started when one year, he forgot to make a sacrifice to the goddess of the hunt, Artemis, who was infuriated. To punish him and his people, Artemis sent a boar of monstrous size that caused devastation in the surrounding area. To save themselves from the beast, the people sought refuge inside the city walls, but soon hunger made its appearance. Oeneus sent a message all over Greece asking for help to kill the boar, and giving its pelt and tusk in return. A few brave men answered Oeneus\' call, including his son Meleager, as well as a fearless woman, Atalanta. In fact, it was her that caused the first blow to the beast, driving an arrow through its skin, and thus triggering its eventual death. Meleager, who had fallen in love with Atalanta, said that she should get the pelt of the boar, but his uncles, who also participated in the Hunt, protested. The prince, furious, slew them and offered it to Atalanta. When his mother learned what had happened, she burned the final brand that she had tucked away after the Fates had told her it would mean the death of her son, causing Meleager\'s demise. As a result, Artemis managed to get her revenge from King Oeneus.',
   'index': 96
 };
-Map name = {
+Map Camazotz = {
   'image': 'blank',
-  'title': 'name',
-  'text': '',
+  'title': 'Camazotz',
+  'text': 'Camazotz is a demon in Maya mythology. Camazotz takes the form of a giant bat and resides in the House of Bats in the Mayan underworld. According to Mayan myth, the gods protected the Mayans keeping all demons confined to the underworld. In return, the gods required an array of human sacrifices. When the people began to resist the gods\' demands, the gods punished humans by releasing Camazotz, wiping out the human race. The gods then created a new human race that would be more obedient.',
   'index': 97
 };
-Map name = {
+Map Camenae = {
   'image': 'blank',
   'title': 'name',
-  'text': '',
+  'text': 'Camenae, in Roman religion, goddesses who were perhaps originally water deities, having a sacred grove and spring located outside the Porta Capena at Rome. Believed able to cure diseases and prophesy the future, the Camenae were offered libations of water and milk. In the 2nd century BC the poet Quintus Ennius identified them with the Muses.',
   'index': 98
 };
-Map name = {
+Map Capricornus = {
   'image': 'blank',
-  'title': 'name',
-  'text': '',
+  'title': 'Capricornus',
+  'text': 'Capricornus, the sea goat, bounds low across the southern sky in late summer and fall. Like all the constellations of the zodiac, Capricornus has as many mythological tales as it has stars. Capricornus gets its name from a Greek myth that says the god Pan was transformed into a half-goat, half-fish when he dived into the Nile River to escape the giant Typhon. Capricornus looks like a large triangle of fairly bright stars. The brightest stars are side-by-side at the triangle\'s western tip. Farthest west is Giedi — the goat. Binoculars reveal that this is really two stars. Although the stars appear near each other, they\'re really separated by a thousand light-years. The closer of the two is about 115 light-years from Earth, while the other is 10 times farther. Just southeast of Giedi is Dabih, the slaughterer — a name that refers to sacrifices made by ancient Arabs when Capricornus rose at the same time as the Sun. It, too, consists of more than one star.',
   'index': 99
+};
+Map Carbuncle = {
+  'image': 'blank',
+  'title': 'Carbuncle',
+  'text': 'Carbuncle (In Spanish: Carbunclo, Carbunco or Carbúnculo) is a legendary species of small animal in South American folklore, specifically in the mining folklore of northern Chile. The animal is said to contain riches of some sort; in some versions it is a precious stone that gives fortune and good luck to its owner. The description of the animal vary. The chaplain and explorer Martín del Barco Centenera describes it in La Argentina (1602) as "a smallish animal, with a shining mirror on its head, like a glowing coal". As explained in the Book of Imaginary Beings Barco Centenera "underwent many hardships hunting the reaches of Paraguayan rivers and jungles for the elusive creature; he never found it." In the same book, the mirror in the carbuncle\'s head is said to be akin to two lights observed by Spanish explorers in the Strait of Magellan. Gonzalo Fernández de Oviedo y Valdés identified these lights with the gemstones hidden in the brains of dragons. The association is likely derived from the 7th-century Etymologiae of Isidore of Seville. In Chile some say it moves like a firefly in the night. In Tarapacá, it is said to look like a bivalve with a strong white-blue shine from within the shell which can be observed from a great distance. This "bivalve" is said to have the form of a maize ear, with more than four feet. The "bivalve" Carbunclo is said to have a very good sense of hearing, which it uses to hide from people by closing its shell to be mistaken for a stone. The shining in the interior of the carbuncle is thought by some miners to come from the gold it has inside. During the great drought of 1924–25 there were reported sightings of carbunclos on moonless nights. Around 1925 a family of carbunclos was seen descending from the mountain of Tulahuén towards Río Grande (Coquimbo Region). Also in northern Chile, a man named Gaspar Huerta is said to have encountered a carbunclo while digging an acequia, but reportedly he could not see what its shape was because he killed it on the spot to recover its riches.',
+  'index': 100
+};
+Map Cath_Palug = {
+  'image': 'blank',
+  'title': ' Cath Palug',
+  'text': 'Cath Palug, literally "Palug\'s cat", was a monstrous cat in Welsh legend, given birth in Gwynedd by the pig Henwen of Cornwall; the cat was later to haunt the Isle of Anglesey, and was said to have killed 180 warriors when Sir Kay went to the island to hunt it down. Cath Palug\'s French name is Chapalu. Vicious poems were composed by Frenchmen claiming it killed King Arthur, according to a 12th-century Anglo-Norman author. A cat analogous to Chapalu (though not mentioned by name) is eradicated by Arthur in the Vulgate Cycle\'s prose Estoire de Merlin.',
+  'index': 101
+};
+Map Catoblepas = {
+  'image': 'blank',
+  'title': 'Catoblepas',
+  'text': 'The Catoblepas ("to look downwards") is a mythical creature believed to exist in Africa. Making eye contact with the monster causes instant death. It is most often encountered in swampy areas and wetlands. It is said to be a boar-like monster, roughly the size of a water buffalo. It has short, bristly hair and a scaly hide. It has a long, thin neck leading to an extremely heavy head which it carries low to the ground. It is possible that early European explorers merely misidentified water buffalo or warthogs for this monster.',
+  'index': 102
+};
+Map Ceffyl_Dwr = {
+  'image': 'blank',
+  'title': 'Ceffyl Dŵr',
+  'text': 'Ceffyl Dŵr is a water horse in Welsh folklore, a counterpart of the Scottish kelpie. Ceffyl Dŵr was believed to shapeshift and even fly, although this varies depending on region. For example, in North Wales he is represented as being rather formidable with fiery eyes and a dark foreboding presence, whereas in South Wales he is seen more positively as, at worst a cheeky pest to travellers and, at best, as Trevelyan puts it, "luminous, fascinating and sometimes a winged steed". The Ceffyl Dŵr is said to inhabit mountain pools and waterfalls. Even though it appears solid, it can evaporate into the mist. In one form of the legend the Ceffyl Dŵr, as a horse, leaps out of the water to trample and kill lone travellers. Another form of the legend reports that the Ceffyl Dŵr entices the unwary traveller to ride him. Flying into the air, the Ceffyl Dŵr evaporates, dropping the unfortunate rider to his death.',
+  'index': 103
+};
+Map Centaur = {
+  'image': 'blank',
+  'title': 'Centaur',
+  'text': 'Centaur, Greek Kentauros, in Greek mythology, a race of creatures, part horse and part man, dwelling in the mountains of Thessaly and Arcadia. Traditionally they were the offspring of Ixion, king of the neighbouring Lapiths, and were best known for their fight (centauromachy) with the Lapiths, which resulted from their attempt to carry off the bride of Pirithous, son and successor of Ixion. They lost the battle and were driven from Mount Pelion. In later Greek times they were often represented drawing the chariot of the wine god Dionysus or bound and ridden by Eros, the god of love, in allusion to their drunken and amorous habits. Their general character was that of wild, lawless, and inhospitable beings, the slaves of their animal passions. (The Centaur Chiron was not typical in this respect.) Centaurs may best be explained as the creation of a folktale in which wild inhabitants of the mountains and savage spirits of the forests were combined in half-human, half-animal form. In early art they were portrayed as human beings in front, with the body and hindlegs of a horse attached to the back; later, they were men only as far as the waist. They fought using rough branches of trees as weapons.',
+  'index': 104
 };
 Map name = {
   'image': 'blank',
   'title': 'name',
   'text': '',
-  'index': 100
+  'index': 105
+};
+Map name = {
+  'image': 'blank',
+  'title': 'name',
+  'text': '',
+  'index': 106
+};
+Map name = {
+  'image': 'blank',
+  'title': 'name',
+  'text': '',
+  'index': 107
+};
+Map name = {
+  'image': 'blank',
+  'title': 'name',
+  'text': '',
+  'index': 108
+};
+Map name = {
+  'image': 'blank',
+  'title': 'name',
+  'text': '',
+  'index': 109
+};
+Map name = {
+  'image': 'blank',
+  'title': 'name',
+  'text': '',
+  'index': 110
+};
+Map name = {
+  'image': 'blank',
+  'title': 'name',
+  'text': '',
+  'index': 111
+};
+Map name = {
+  'image': 'blank',
+  'title': 'name',
+  'text': '',
+  'index': 112
 };
 /*
 Map name = {
   'image': 'blank',
   'title': 'name',
   'text': '',
-  'index': 0
+  'index': 1
 };
 */
