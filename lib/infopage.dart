@@ -117,7 +117,7 @@ class _infoState extends State<infopage> {
                   itemCount: newMyList.length,
                   physics: AlwaysScrollableScrollPhysics(),
                   itemBuilder: (context, index) {
-                    infopagelayout(newMyList[index]);
+                    return infopagelayout(newMyList[index]);
                   },
                 ),
               ),
