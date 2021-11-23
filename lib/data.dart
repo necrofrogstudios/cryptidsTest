@@ -50,6 +50,16 @@ List<Map> myList = [
   Bai_Ze,
   Bake_kujira,
   Bakeneko,
+  Baku,
+  Bakunawa,
+  Balayang,
+  Balor,
+  Banshee,
+  Barbegazi,
+  Bare_fronted_Hoodwink,
+  Barmanou,
+  Basan,
+  Basilisk,
 ];
 
 List<Map> favoriteCreatures = [];
@@ -418,64 +428,64 @@ Map Bakeneko = {
       'Bakeneko are monster cats that have lived long enough to become yokai and gain supernatural powers in Japanese mythology. Cats, feral and domestic, are found all over Japan: in houses as pets, on farms as exterminators, and in cities and towns as strays. When cats live to an old age, they begin develop supernatural powers and transform into yokai. Bakeneko begin their supernatural life looking almost identical to an ordinary housecat. Soon they begin to walk about at on their hind legs. As they age and their powers increase, they can grow to be very large, sometimes as big as a full-grown human. Bakeneko possess great shape-shifting abilities and frequently disguise themselves as smaller cats or humans – sometimes even their own masters. While in disguise, they like to dress up as humans with a towel wrapped around their head and dance around merrily. Many learn to speak human languages. They can eat things that are much bigger than they are, and even poisonous things, without any difficulty at all. It is even possible for a bakeneko to eat its own master and then take his form, living on in his place. If they do not kill their owners, they often bring down great curses and misfortune upon them. They can summon ghostly fireballs and are known to accidentally start house fires, their tails acting like torches on any flammable materials in the house. They also have the disturbing ability to reanimate fresh corpses and use them like puppets for their own nefarious purposes. They are generally a menace to any house they live in or near. Bakeneko can come into being as a result of a number of things, but the most common reasons are by living long-life (generally over 13 years), growing to a certain size (over 3.75 kilograms), by licking up large quantities of lamp oil. A telltale sign that a cat may be close to becoming a bakeneko is believed to be an exceptionally long tail. This superstition led to the custom of bobbing a cat’s tail at an early age to prevent it from growing supernaturally long and transforming into a yokai.',
   'index': 50
 };
-/*
-Map name = {
+
+Map Baku = {
   'image': 'blank',
-  'title': 'name',
-  'text': '',
+  'title': 'Baku',
+  'text': 'Baku are Japanese supernatural beings that are said to devour nightmares. According to legend, they were created by the spare pieces that were left over when the gods finished creating all other animals. They have a long history in Japanese folklore and art, and more recently have appeared in manga and anime. The Japanese term baku has two current meanings, referring to both the traditional dream-devouring creature and to the Malayan tapir. In recent years, there have been changes in how the baku is depicted.',
   'index': 51
 };
-Map name = {
+Map Bakunawa = {
   'image': 'blank',
-  'title': 'name',
-  'text': '',
+  'title': 'Bakunawa',
+  'text': 'The Bakunawa is a serpent-like dragon in Philippine mythology. It is believed to be the cause of eclipses, earthquakes, rains, and wind. The movements of the Bakunawa served as a geomantic calendar system for ancient Filipinos and were part of the shamanistic rituals of the babaylan. It is usually depicted with a characteristic looped tail and a single horn on the nose. It was generally believed to be a sea serpent, but are also variously believed to inhabit either the sky or the underworld. Due to increasing trade contacts with South Asia and the Indianization of Southeast Asia, the Bakunawa later became syncretized with the Nāga, Rahu, and Ketu of Hindu-Buddhist mythology.',
   'index': 52
 };
-Map name = {
+Map Balayang  = {
   'image': 'blank',
-  'title': 'name',
-  'text': '',
+  'title': 'Balayang',
+  'text': 'In the mythology of the Aboriginal people of south-eastern Australia (specifically, the Kulin nation), Balayang the bat was a brother of Bunjil the eaglehawk, but lived apart from him. Once, Bunjil asked him to come and live with him, but Balayang replied that Bunjil\'s country was too dry and that Bunjil ought to come and live with him instead. This upset Bunjil, who sent his two helpers, Djurt-djurt the nankeen kestrel and Thara the quail hawk, after Balayang. They set fire to the bat\'s country and Balayang and his family were scorched and turned permanently black. Because of his black coloring, Balayang was associated with Crow, and thus belonged to the moiety in opposition to Eaglehawk. Another story credits him with creating or finding Crow women (and thus marriage partners for the Eaglehawk moiety). One day Balayang was amusing himself by thumping the surface of the water, causing it to thicken into mud. Something stirred underneath the mud and, probing with a branch, he found two women. He called one Kunnawarra ("black swan") and the other Kururuk ("native companion"). He took them to Bunjil, who gave them as wives to the men he had created. Balayang was represented in the night sky by the star Antares.',
   'index': 53
 };
-Map name = {
+Map  Balor = {
   'image': 'blank',
-  'title': 'name',
-  'text': '',
+  'title': 'Balor of the Evil Eye',
+  'text': 'In Irish mythology, Balor was the tyrant leader of the Fomorians, a group of supernatural beings. He is often described as a giant with a large eye that wreaks destruction when opened. Balor is primarily known from the tale in which he is killed by his grandson Lugh. He has been interpreted as a personification of drought, blight, and the scorching sun. Balor is said to be the son of Buarainech, husband of Cethlenn, and grandson of Neit. He is a tyrant who oppresses Ireland from his fortress on Tory Island. The Cath Maige Tuired calls it a destructive and poisonous eye that when opened, permits an entire army to be overwhelmed by a few warriors. It was said that four warriors had to lift the eyelid, which became poisonous after Balor looked into a potion being concocted by his father\'s druids. Later folklore says that he has only one eye and describes it as follows: "He had a single eye in his forehead, a venomous fiery eye. There were always seven coverings over this eye. One by one Balor removed the coverings. With the first covering the bracken began to wither, with the second the grass became copper-colored, with the third the woods and timber began to heat, with the fourth smoke came from the trees, with the fifth everything grew red, with the sixth it sparked. With the seventh, they were all set on fire, and the whole countryside was ablaze!". Balor hears a prophecy that he would be killed by his grandson. To avoid his fate, he locks his only daughter, Ethniu, in a tower on Tory Island to keep her from becoming pregnant. One day, Balor steals a magical cow of abundance, the Glas Gaibhnenn, from Goibniu the smith, and takes it to his fortress on Tory Island. Cian, who was guarding the cow for Goibniu, sets out to get it back. With the help of the druidess Biróg, Cian enters the tower, finds Ethniu and has intercourse with her. Balor seizes Cian and has him put to death. When Ethniu gives birth to a son, Balor attempts to drown the child in the sea or has the child set adrift on the sea to die. However, he is saved by the sea god Manannán, who raises the child as his foster-son. He grows up to become Lugh. Lugh eventually becomes king of the Tuatha Dé Danann. He leads the Tuath Dé in the Battle of Mag Tuired (Moytura) against the Fomorians, who are led by Balor. Lugh kills Balor by casting a spear crafted by Goibniu, or sometimes a sling stone, through his eye. Balor\'s eye destroys the Fomorian army. Lugh then beheads Balor, bringing the reign of the tyrant to an end.',
   'index': 54
 };
-Map name = {
+Map Banshee = {
   'image': 'blank',
-  'title': 'name',
-  'text': '',
+  'title': 'Banshee',
+  'text': 'A banshee, "woman of the fairy mound" or "fairy woman", is a female spirit in Irish folklore who heralds the death of a family member, usually by wailing, shrieking, or keening. Her name is connected to the mythologically important tumuli or "mounds" that dot the Irish countryside, which are known as síde in Old Irish.',
   'index': 55
 };
-Map name = {
+Map Barbegazi = {
   'image': 'blank',
-  'title': 'name',
-  'text': '',
+  'title': 'Barbegazi',
+  'text': 'Barbegazi are mythical creatures from Swiss and French mythology. A variety of dwarf or gnome, a barbegazi resembles a small white-furred man with a long beard and enormous feet. They travel in the mountains that are their home by skiing with their massive feet, or using them as snowshoes. In the summer they aestivate in caves and tunnels and do not come out until the first snowfall. The word barbegazi comes from the French barbe-glacée, meaning "frozen beard". Because of their penchant for high altitudes and low temperatures, they are rarely sighted by humans, but sometimes help shepherds round up lost sheep. Their greatest known excitement is surfing on avalanches with their remarkably large feet, but they are said to give low whistling cries to warn humans of the danger above, sometimes they will give their best effort to dig humans out from the snow. A modern addition to this myth is the rumored migration of the Barbegazi to North America, predominantly to a locale of French origin in northwest Minnesota named Roseau County. Numerous sightings have been reported along the Roseau River, in the depths of the often frigid northern Minnesota winters.',
   'index': 56
 };
-Map name = {
+Map  Bare_fronted_Hoodwink  = {
   'image': 'blank',
-  'title': 'name',
-  'text': '',
+  'title': ' Bare-Fronted Hoodwink ',
+  'text': 'Bare-fronted Hoodwink is a bizarre bird, first described as "partially seen or indeterminately heard." It was determined that all such partial sightings could be attributed to a single species: the Hoodwink. The Hoodwink exhibits a talent for being almost seen or almost captured. It is advised that bird watchers in the field could recognize the species by its "blurred appearance and extremely rapid flight away from the observer." Amateur bird watchers appeared to have more luck spying it than more experienced observers.',
   'index': 57
 };
-Map name = {
+Map Barmanou = {
   'image': 'blank',
-  'title': 'name',
-  'text': '',
+  'title': 'Barmanou',
+  'text': 'The Barmanu is a bipedal Humanoid Primate cryptid said to be living in the mountainous region of western Pakistan. Sightings have been reported by shepherds living in the mountains. The Barmanou is the Pakistani equivalent of the Bigfoot. The term Barmanou is used in several Pakistani languages including Khowar, Shina, Hindko and Kashmiri. In addition to the name Barmanou, there are other local names as well. The proposed range of the Barmanou is in the Chitral and Karakoram ranges, between the Pamirs and the Himalaya. Thus this puts its range in region between the ranges of two more famous cryptids, the Almas of Central Asia and the Yeti of the Himalayas. The Barmanou is alleged to possess both human and apelike characteristics and is said to abduct women and attempt mating with them. It is also reported to wear animal skins upon its back and head. The Barmanou appears in the folklore of the Northern Regions of Pakistan and depending on where the stories come from it tends to be either described as an ape or a wild man. The first search in Pakistan for Bipedal Humanoid man was carried out by a Spanish zoologist Jordi Magraner from 1987 to 1990. He wrote a paper Les Hominidés reliques d\'Asie Centrale on Pakistani cryptid – the wild man. In May 1992, a search in Shishi Kuh valley, Chitral, Dr. Anne Mallasseand is reported to have said that one time during a late evening she heard unusual guttural sounds which could only be produced by a primitive voice-box. No further progress could be made. In addition to this, Dr. Anne Mallasseand was not able to record the sound.',
   'index': 58
-};Map name = {
+};Map Basan = {
   'image': 'blank',
-  'title': 'name',
-  'text': '',
+  'title': 'Basan',
+  'text': 'It is described as a gigantic chicken with ability to breathe fire; the fire itself is cold and doesn\'t burn. When the Basan flaps its wings, an eerie rustling ("basabasa") sound can be heard. Supposedly, if a human hears the sound and looks outside, the bird\'s form will suddenly vanish. This creature was said to live in the bamboo forests within the mountains of the Iyo Province (today Ehime Prefecture).',
   'index': 59
 };
-Map name = {
+Map Basilisk = {
   'image': 'blank',
-  'title': 'name',
-  'text': '',
+  'title': 'Basilisk',
+  'text': 'The Basilisk appeared in various forms throughout history. It started off as a small, crowned snake being able to kill with its lethal poison and evil gaze. The poison was so lethal, it left a wide trail of venom in its wake. Despite its cruel nature, it still represents power (and sometimes that of Hell in Christian mythology), thus it became the guardian creature and the traditional symbol of the Swiss city Basel. The basilisk is believed to be the most poisonous creature ever lived, there are tales where the basilisk was killed by a spear from horse-back, but the poison flowed upward and killed both the man and the ride. Its presence is so tainting, that not only herbs die of its terrible breath, but stones shatter as well. The basilisk\'s venom is so strong, that upon drinking from a well, the water remains polluted for centuries, bringing death to anyone drinking it. The basilisk can only be a male, for it must have the most proper receptacle of venom and destructive qualities. It’s is also said to be so evil that when it cannot petrify animals, it turns to plants, withering them anywhere it goes. Medieval travellers described it as a large, fire breathing creature with a terrifying roar. It soon be came described as a rooster with a serpent\'s tail and (occasionally) dragon wings. This shows similarities with the cockatrice, but there is one difference. The basilisk is said to be hatched from the egg of a rooster (yes, rooster, not chicken) and incubated by a toad, while the birthing process of a cockatrice is vica versa, a toad\'s egg hatched by a rooster. Another description of the basilisk is of a lizard with a rooster\'s head, the tail of a serpent and eight chicken legs. Based off of this, many modern depictions of a basilisk as a large, six- or eight-legged lizard, armed with a petrifying gaze. The tales about the basilisk being petrified by its own appearance in a mirror exist, but it can be slayed by other various methods. It is also vulnerable to the cockcrow of a rooster. This belief lead to travelers carrying roosters for self protection. Although, roosters never actually had the power to kill the Basilisk. It can also be stopped by the odor of a weasel. The villagers threw it in the pit (recognized by the dying vegetation nearby) of the basilisk in hope to get rid of the beast.',
   'index': 60
 };
 */
