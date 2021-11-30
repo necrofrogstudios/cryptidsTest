@@ -707,7 +707,7 @@ Map Camazotz = {
 };
 Map Camenae = {
   'image': 'blank',
-  'title': 'name',
+  'title': 'Camenae',
   'text': 'Camenae, in Roman religion, goddesses who were perhaps originally water deities, having a sacred grove and spring located outside the Porta Capena at Rome. Believed able to cure diseases and prophesy the future, the Camenae were offered libations of water and milk. In the 2nd century BC the poet Quintus Ennius identified them with the Muses.',
   'index': 98
 };
