@@ -8,18 +8,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   final prefs = await SharedPreferences.getInstance();
-  bool firstTime = prefs.getBool('firstBoot');
-  if (firstTime == null) {
-    for (int i = 0; i < myList.length; i++) {
-      prefs.setBool(myList[i]['title'] + 'fav', false);
-      myList[i]['isLiked'] = false;
-    }
-    prefs.setBool('firstBoot', false);
-  } else {
-    for (int i = 0; i < myList.length; i++) {
-      myList[i]['isLiked'] = prefs.getBool(myList[i]['title'] + 'fav');
-    }
-  }
+  favoritesSetUp(prefs); //gets favorites from storage
   runApp(
     MaterialApp(
       title: 'Cryptid Chaos',
@@ -124,5 +113,23 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
       ),
     );
+  }
+}
+
+void favoritesSetUp(SharedPreferences prefs) {
+  bool firstTime = prefs.getBool('firstBoot');
+  if (firstTime == null) {
+    for (int i = 0; i < myList.length; i++) {
+      prefs.setBool(myList[i]['title'] + 'fav', false);
+      myList[i]['isLiked'] = false;
+    }
+    prefs.setBool('firstBoot', false);
+  } else {
+    for (int i = 0; i < myList.length; i++) {
+      myList[i]['isLiked'] = prefs.getBool(myList[i]['title'] + 'fav');
+      if (prefs.getBool(myList[i]['title'] + 'fav')) {
+        favoriteCreatures.add(myList[i]);
+      }
+    }
   }
 }
