@@ -3,6 +3,8 @@ import 'package:like_button/like_button.dart';
 import 'infopage.dart';
 import 'favorites.dart';
 import 'data.dart';
+import 'main.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class mainpagebutton extends StatelessWidget {
   final Map data;
@@ -42,7 +44,8 @@ class mainpagebutton extends StatelessWidget {
                       Positioned(
                         right: 5,
                         child: LikeButton(
-                          circleColor: CircleColor(start: Colors.pink, end: Colors.red),
+                          circleColor:
+                              CircleColor(start: Colors.pink, end: Colors.red),
                           bubblesColor: BubblesColor(
                             dotPrimaryColor: Colors.blue,
                             dotSecondaryColor: Colors.red,
@@ -69,6 +72,7 @@ class mainpagebutton extends StatelessWidget {
   }
 
   Future<bool> onLikeButtonTapped(bool isLiked) async {
+    final prefs = await SharedPreferences.getInstance();
     if (!data['isLiked']) {
       isLiked = true;
     } else {
@@ -81,7 +85,7 @@ class mainpagebutton extends StatelessWidget {
       favoriteCreatures.remove(data);
       data['isLiked'] = false;
     }
-
+    prefs.setBool(data['title'] + 'fav', isLiked);
     for (int i = 0; i < favoriteCreatures.length; i++) {
       print(favoriteCreatures[i]['title']);
     }
