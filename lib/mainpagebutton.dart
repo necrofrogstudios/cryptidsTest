@@ -42,8 +42,7 @@ class mainpagebutton extends StatelessWidget {
                       Positioned(
                         right: 5,
                         child: LikeButton(
-                          circleColor:
-                              CircleColor(start: Colors.pink, end: Colors.red),
+                          circleColor: CircleColor(start: Colors.pink, end: Colors.red),
                           bubblesColor: BubblesColor(
                             dotPrimaryColor: Colors.blue,
                             dotSecondaryColor: Colors.red,

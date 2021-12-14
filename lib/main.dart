@@ -55,41 +55,37 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-          centerTitle: true,
-          backgroundColor: Colors.purple,
-          title: appBarTitle,
-          actions: <Widget>[
-            IconButton(
-              icon: customIcon,
-              onPressed: () {
-                setState(() {
-                  if (this.customIcon.icon == Icons.search) {
-                    this.customIcon = new Icon(Icons.close);
-                    this.appBarTitle = new TextField(
-                      controller: _textController,
-                      decoration: InputDecoration(
-                        hintText: 'Search Cryptids',
-                        hintStyle: TextStyle(
-                          color: Colors.white,
-                          fontSize: 18,
-                          fontStyle: FontStyle.italic,
-                        ),
-                        border: InputBorder.none,
-                      ),
-                      style: TextStyle(
-                        color: Colors.white,
-                      ),
-                      onChanged: onItemChanged,
-                    );
-                  } else {
-                    this.customIcon = new Icon(Icons.search);
-                    this.appBarTitle = new Text("Cryptid Chaos");
-                  }
-                });
-              },
-            ),
-          ]),
+      appBar: AppBar(centerTitle: true, backgroundColor: Colors.purple, title: appBarTitle, actions: <Widget>[
+        IconButton(
+          icon: customIcon,
+          onPressed: () {
+            setState(() {
+              if (this.customIcon.icon == Icons.search) {
+                this.customIcon = new Icon(Icons.close);
+                this.appBarTitle = new TextField(
+                  controller: _textController,
+                  decoration: InputDecoration(
+                    hintText: 'Search Cryptids',
+                    hintStyle: TextStyle(
+                      color: Colors.white,
+                      fontSize: 18,
+                      fontStyle: FontStyle.italic,
+                    ),
+                    border: InputBorder.none,
+                  ),
+                  style: TextStyle(
+                    color: Colors.white,
+                  ),
+                  onChanged: onItemChanged,
+                );
+              } else {
+                this.customIcon = new Icon(Icons.search);
+                this.appBarTitle = new Text("Cryptid Chaos");
+              }
+            });
+          },
+        ),
+      ]),
       drawer: drawer(currentScreen),
       body: Container(
         width: double.infinity,
@@ -98,8 +94,7 @@ class _HomeScreenState extends State<HomeScreen> {
           physics: ScrollPhysics(),
           child: Column(
             children: <Widget>[
-              Image.network(
-                  'https://i.pinimg.com/originals/1f/1a/2a/1f1a2ad5a16dd38f2ac1568315928f69.jpg'),
+              Image.network('https://i.pinimg.com/originals/1f/1a/2a/1f1a2ad5a16dd38f2ac1568315928f69.jpg'),
               ListView(
                 physics: NeverScrollableScrollPhysics(),
                 shrinkWrap: true,
