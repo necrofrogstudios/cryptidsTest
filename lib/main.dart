@@ -3,8 +3,10 @@ import 'drawer.dart';
 import 'mainpagebutton.dart';
 import 'data.dart';
 import 'splash.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
-void main() {
+void main() async {
+  final prefs = await SharedPreferences.getInstance();
   for (int i = 0; i < myList.length; i++) {
     myList[i]['isLiked'] = false;
   }
