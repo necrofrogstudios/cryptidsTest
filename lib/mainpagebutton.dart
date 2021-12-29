@@ -7,7 +7,7 @@ import 'main.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class mainpagebutton extends StatelessWidget {
-  final Map data;
+  final mythicalCreature data;
   mainpagebutton(this.data);
 
   Widget build(BuildContext context) {
@@ -34,7 +34,7 @@ class mainpagebutton extends StatelessWidget {
                     children: [
                       Center(
                         child: Text(
-                          data['title'],
+                          data.name,
                           style: TextStyle(
                             fontSize: 20,
                             color: Colors.white,
@@ -44,8 +44,7 @@ class mainpagebutton extends StatelessWidget {
                       Positioned(
                         right: 5,
                         child: LikeButton(
-                          circleColor:
-                              CircleColor(start: Colors.pink, end: Colors.red),
+                          circleColor: CircleColor(start: Colors.pink, end: Colors.red),
                           bubblesColor: BubblesColor(
                             dotPrimaryColor: Colors.blue,
                             dotSecondaryColor: Colors.red,
@@ -54,7 +53,7 @@ class mainpagebutton extends StatelessWidget {
                             return Icon(
                               Icons.favorite,
                               size: 28,
-                              color: data['isLiked'] ? Colors.red : Colors.grey,
+                              color: data.isLiked ? Colors.red : Colors.grey,
                             );
                           },
                           onTap: onLikeButtonTapped,
@@ -73,21 +72,21 @@ class mainpagebutton extends StatelessWidget {
 
   Future<bool> onLikeButtonTapped(bool isLiked) async {
     final prefs = await SharedPreferences.getInstance();
-    if (!data['isLiked']) {
+    if (!data.isLiked) {
       isLiked = true;
     } else {
       isLiked = false;
     }
     if (isLiked) {
       favoriteCreatures.add(data);
-      data['isLiked'] = true;
+      data.isLiked = true;
     } else {
       favoriteCreatures.remove(data);
-      data['isLiked'] = false;
+      data.isLiked = false;
     }
-    prefs.setBool(data['title'] + 'fav', isLiked);
+    prefs.setBool(data.name + 'fav', isLiked);
     for (int i = 0; i < favoriteCreatures.length; i++) {
-      print(favoriteCreatures[i]['title']);
+      print(favoriteCreatures[i].name);
     }
     return Future<bool>.value(isLiked);
   }

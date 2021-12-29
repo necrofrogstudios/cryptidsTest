@@ -33,7 +33,7 @@ class _infoState extends State<infopage> {
 
   void initState() {
     super.initState();
-    WidgetsBinding.instance.addPostFrameCallback((_) => _scrollToIndex(data['index']));
+    WidgetsBinding.instance.addPostFrameCallback((_) => _scrollToIndex(myList.indexOf(data)));
   }
 
   List<mythicalCreature> newMyList = List.from(myList);
