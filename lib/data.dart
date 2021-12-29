@@ -7,12 +7,12 @@ class mythicalCreature {
 }
 
 List<mythicalCreature> myList = [
-  mythicalCreature Ababil = new mythicalCreature(
+  final Ababil = mythicalCreature(
     'Abibail',
     'blank',
     'Refers to the miraculous birds in Islamic belief mentioned in the Quran that protected the Ka\'ba in Mecca from the Aksumite elephant army of Abraha, then self-styled governor of Himyar, by dropping small clay stones on them as they approached.  The actual phrase from the Quran from which the word is derived from translates as "birds in flocks".  The event is said to have occurred in 570, the year that the Islamic prophet Mohammed was born. ',
   ),
-  mythicalCreature Abaia = new mythicalCreature(
+  final Abaia = mythicalCreature(
     'Abaia',
     'blank',
     'A huge, magical eel in Melanesian mythology. According to Melanesian mythology the Abaia is a type of large eel which dwells at the bottom of freshwater lakes in the Fiji, Solomon and Vanuatu Islands. The Abaia is said to consider all creatures in the lake its children and protects them furiously against anyone who would harm or disturb them. It is said that those who are foolish enough to try to catch the fish from a lake containing the Abaia are immediately overwhelmed by a large wave caused by the thrashing of the Abaia\'s powerful tail. Another version of the legend states that if someone were to harm a creature living in the Abaia\'s home, the Abaia would cause a great rain storm flooding the land and drowning those who had caused the harm. One example of this ability is illustrated in the following story: One day a man discovered a lake in which were many fish, and at the bottom of the lake lived a magic eel, but the man knew it not. He caught many fish and returned the next day with the people of his village whom he had told of his discovery, and they also were very successful, while one woman even laid hold of the great eel, Abaia, who dwelt in the depths of the lake, though he escaped her. Now Abaia was angry that his fish had been caught and that he himself had been seized, so he caused a great rain to fall that night, and the waters of the lake also rose, and all the people were drowned except an old woman who had not eaten of the fish and who saved herself in a tree. Although it would seem that the magical powers of the Abaia are the byproduct of human imagination and its fear of the unknown,  it has been suggested that the Abaia legend may have stemmed from encounters with an actual undiscovered species of giant eel living at the bottom of these remote lakes.',
