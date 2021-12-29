@@ -3,7 +3,12 @@ class mythicalCreature {
   String name;
   String description;
   bool isLiked;
-  mythicalCreature(this.name, this.imageLink, this.description, {this.isLiked});
+  mythicalCreature(
+    this.name,
+    this.imageLink,
+    this.description,
+    this.isLiked,
+  );
 }
 
 List<mythicalCreature> myList = [];
