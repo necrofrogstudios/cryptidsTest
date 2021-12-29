@@ -9,7 +9,7 @@ class infopagelayout extends StatelessWidget {
     return Column(
       children: <Widget>[
         Text(
-          data.title,
+          data.name,
           style: TextStyle(
             fontWeight: FontWeight.bold,
             fontSize: 20,
