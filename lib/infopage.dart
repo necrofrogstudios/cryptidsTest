@@ -36,7 +36,7 @@ class _infoState extends State<infopage> {
     WidgetsBinding.instance.addPostFrameCallback((_) => _scrollToIndex(data['index']));
   }
 
-  List<Map> newMyList = List.from(myList);
+  List<mythicalCreature> newMyList = List.from(myList);
 
   onItemChanged(String value) {
     setState(() {
@@ -46,7 +46,7 @@ class _infoState extends State<infopage> {
       } else {
         newMyList = [];
         for (int i = 0; i < myList.length; i++) {
-          if (myList[i]['title'].toLowerCase().contains(value.toLowerCase())) {
+          if (myList[i].name.toLowerCase().contains(value.toLowerCase())) {
             newMyList.add(myList[i]);
           }
         }
