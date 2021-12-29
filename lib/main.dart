@@ -114,7 +114,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
 void favoritesSetUp(SharedPreferences prefs) {
   bool firstTime = prefs.getBool('firstBoot');
-  if (firstTime == null) {
+  if (true) {
     for (int i = 0; i < myList.length; i++) {
       prefs.setBool(myList[i].name + 'fav', false);
       myList[i].isLiked = false;
