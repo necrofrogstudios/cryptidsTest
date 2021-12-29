@@ -9,14 +9,14 @@ class infopagelayout extends StatelessWidget {
     return Column(
       children: <Widget>[
         Text(
-          data['title'],
+          data.title,
           style: TextStyle(
             fontWeight: FontWeight.bold,
             fontSize: 20,
           ),
         ),
         Text(
-          data['text'],
+          data.description,
           style: TextStyle(
             fontSize: 17,
           ),
