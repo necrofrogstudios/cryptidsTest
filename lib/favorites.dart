@@ -94,7 +94,7 @@ class _FavoritesState extends State<Favorites> {
       } else {
         newFavoriteCreatures = [];
         for (int i = 0; i < favoriteCreatures.length; i++) {
-          if (favoriteCreatures[i]['title'].toLowerCase().contains(value.toLowerCase())) {
+          if (favoriteCreatures[i].name.toLowerCase().contains(value.toLowerCase())) {
             newFavoriteCreatures.add(favoriteCreatures[i]);
           }
         }
