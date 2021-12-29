@@ -19,7 +19,7 @@ List<mythicalCreature> myList = [
   ),
 ];
 
-List<mythicalCreatures> favoriteCreatures = [];
+List<mythicalCreature> favoriteCreatures = [];
 
 
 
