@@ -113,7 +113,7 @@ class _HomeScreenState extends State<HomeScreen> {
 }
 
 void favoritesSetUp(SharedPreferences prefs) {
-  bool firstTime = prefs.getBool('firstBoot');
+  bool firstTime = prefs.getBool('firstBoots');
   if (firstTime == null) {
     for (int i = 0; i < myList.length; i++) {
       prefs.setBool(myList[i].name + 'fav', false);
