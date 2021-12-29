@@ -14,7 +14,7 @@ class _FavoritesState extends State<Favorites> {
   final currentScreen = Favorites;
   Icon customIcon = const Icon(Icons.search);
   Widget customSearchBar = const Text('Cryptid Chaos');
-  List<Map> newFavoriteCreatures = List.from(favoriteCreatures);
+  List<mythicalCreature> newFavoriteCreatures = List.from(favoriteCreatures);
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
