@@ -6,6 +6,7 @@ import 'splash.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() async {
+  instantiateListOfCreatures();
   WidgetsFlutterBinding.ensureInitialized();
   final prefs = await SharedPreferences.getInstance();
   favoritesSetUp(prefs); //gets favorites from storage
