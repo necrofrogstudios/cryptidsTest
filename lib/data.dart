@@ -3,7 +3,7 @@ class mythicalCreature {
   String name;
   String description;
   bool isLiked;
-  mythicalCreatures(this.name, this.imageLink, this.description, this.isLiked);
+  mythicalCreature(this.name, this.imageLink, this.description, this.isLiked);
 }
 
 List<mythicalCreature> myList = [
@@ -20,8 +20,6 @@ List<mythicalCreature> myList = [
 ];
 
 List<mythicalCreature> favoriteCreatures = [];
-
-
 
 Map Abath = {
   'image': 'blank',
