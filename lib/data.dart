@@ -37,6 +37,7 @@ final List<mythicalCreature> myList = <mythicalCreature>[
   mythicalCreature(
     'Adarna',
     'blank',
+    'In Philippine folklore, the Ibong Adarna is a mythical bird that is described as the most colorful bird in the fictional Kingdom of Berbania. It is the main figure in the Filipino epic poem, but people are more familiar with its shortened title, Ibong Adarna. According to the epic poem, the mythical bird\’s plumage consists of the brightest hues. It can be found in a place called Mt. Tabor where it roosts in a white tree called piedras platas. When it sings, those who hear its lullaby will fall into a deep sleep and may also turn into stone if the Ibong Adarna deposits its poo on them.',
   )
 ];
 
