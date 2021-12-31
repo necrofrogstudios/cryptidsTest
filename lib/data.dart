@@ -12,36 +12,24 @@ final List<mythicalCreature> myList = <mythicalCreature>[
     'blank',
     'Refers to the miraculous birds in Islamic belief mentioned in the Quran that protected the Ka\'ba in Mecca from the Aksumite elephant army of Abraha, then self-styled governor of Himyar, by dropping small clay stones on them as they approached.  The actual phrase from the Quran from which the word is derived from translates as "birds in flocks".  The event is said to have occurred in 570, the year that the Islamic prophet Mohammed was born. ',
   ),
-];
-
-void instantiateListOfCreatures() {
-  /*mythicalCreature Ababil = mythicalCreature(
-    'Abibail',
-    'blank',
-    'Refers to the miraculous birds in Islamic belief mentioned in the Quran that protected the Ka\'ba in Mecca from the Aksumite elephant army of Abraha, then self-styled governor of Himyar, by dropping small clay stones on them as they approached.  The actual phrase from the Quran from which the word is derived from translates as "birds in flocks".  The event is said to have occurred in 570, the year that the Islamic prophet Mohammed was born. ',
-  );
-  myList.add(Ababil);*/
-  mythicalCreature Abaia = mythicalCreature(
+  mythicalCreature(
     'Abaia',
     'blank',
     'A huge, magical eel in Melanesian mythology. According to Melanesian mythology the Abaia is a type of large eel which dwells at the bottom of freshwater lakes in the Fiji, Solomon and Vanuatu Islands. The Abaia is said to consider all creatures in the lake its children and protects them furiously against anyone who would harm or disturb them. It is said that those who are foolish enough to try to catch the fish from a lake containing the Abaia are immediately overwhelmed by a large wave caused by the thrashing of the Abaia\'s powerful tail. Another version of the legend states that if someone were to harm a creature living in the Abaia\'s home, the Abaia would cause a great rain storm flooding the land and drowning those who had caused the harm. One example of this ability is illustrated in the following story: One day a man discovered a lake in which were many fish, and at the bottom of the lake lived a magic eel, but the man knew it not. He caught many fish and returned the next day with the people of his village whom he had told of his discovery, and they also were very successful, while one woman even laid hold of the great eel, Abaia, who dwelt in the depths of the lake, though he escaped her. Now Abaia was angry that his fish had been caught and that he himself had been seized, so he caused a great rain to fall that night, and the waters of the lake also rose, and all the people were drowned except an old woman who had not eaten of the fish and who saved herself in a tree. Although it would seem that the magical powers of the Abaia are the byproduct of human imagination and its fear of the unknown,  it has been suggested that the Abaia legend may have stemmed from encounters with an actual undiscovered species of giant eel living at the bottom of these remote lakes.',
-  );
-  myList.add(Abaia);
-  mythicalCreature Abath = mythicalCreature(
+  ),
+  mythicalCreature(
     'Abath',
     'blank',
     'An Abath is a legendary creature resembling a unicorn, first appearing in records in the 16th century. Accounts of the Abath were brought back by 16th-century European travellers to the Malay Peninsula. Described as female, with a single horn growing from its forehead, it is speculated that these were probably the result of a half-glimpsed Javan or Sumatran rhinoceros. Like the unicorn, a powder made from this horn supposedly served both as an aphrodisiac and as an antidote to poison. However, since the unicorn was invariably represented as male, and since there was only ever one in existence at any time, the Abath seems to have developed independently from the European myths of the one-horned creature.',
-  );
-}
+  ),
+  mythicalCreature(
+    'Abatwa',
+    'blank',
+    'The Abatwa are extremely small men; they "go under the grass, and sleep in anthills." They travel in the mist and live in the upcountry in the rocks; and they have no village. They are wholly nomadic, and kill large animals with poisoned arrows; and when they\'ve killed an animal, they eat every piece of it leaving nothing behind. If an area has no more animals to hunt, the Abatwa gather together and ride on a horse\'s back single-file from neck to tail to go look for better hunting grounds... and if they don\'t find something, they eat the horse. The Abatwa represent a great danger to the Zulu (people who are an Nguni ethnic group in Southern Africa)because they are armed with poisoned arrows which caused uncontrollable bleeding... which is why an Umutwa (the proper name for a single Abatwa) can hunt and kill large animals, but also makes a single Abatwa arrow deadly to a full sized Zulu. So Zulu had to be careful in how they treated any Abatwa they might encounter, and there was one major point the Zuuhad to keep in mind: Abatwa hated being told or reminded they were tiny. Any indication from a Zulu that they felt an Umutwa was small would instantly result in the Zulu being shot and killed! For this reason, the Zulu have adapted the rather unusual greeting of "I saw you!" when encountering any Abatwa. If the tiny warrior then asks the Zulu where he saw them from, the Zulu needs to answer in a way that implies a great size to the minuscule threat, such as "I saw you from that mountain over there." Such a greeting only works, however, if the Umutwa is somehow seen or detected; the true dreadfulness of the Abatwa comes from the very fact that their size makes them almost invisible in most circumstances. An Umutwa could shoot and kill a Zulu who nearly stepped on him without the Zulu ever seeing the being that has killed them... an attacking animal or a murderous man could be faced and dealt with, but the possibility of being killed in a way that cannot be reacted to, that ignores your personal strengths and capabilities, is truly dreadful. This worry prevents sleep and est, for the only comfort is too avoid the territory of the Abatwa altogether.',
+  )
+];
 
 List<mythicalCreature> favoriteCreatures = [];
-
-Map Abath = {
-  'image': 'blank',
-  'title': 'Abath',
-  'text': 'An Abath is a legendary creature resembling a unicorn, first appearing in records in the 16th century. Accounts of the Abath were brought back by 16th-century European travellers to the Malay Peninsula. Described as female, with a single horn growing from its forehead, it is speculated that these were probably the result of a half-glimpsed Javan or Sumatran rhinoceros. Like the unicorn, a powder made from this horn supposedly served both as an aphrodisiac and as an antidote to poison. However, since the unicorn was invariably represented as male, and since there was only ever one in existence at any time, the Abath seems to have developed independently from the European myths of the one-horned creature.',
-  'index': 2
-};
 
 Map Abatwa = {
   'image': 'blank',
