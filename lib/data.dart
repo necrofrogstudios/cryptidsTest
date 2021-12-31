@@ -3,8 +3,10 @@ class mythicalCreature {
   String name;
   String description;
   bool isLiked;
-  mythicalCreature(this.name, this.imageLink, this.description, {this.isLiked});
+  mythicalCreature(this.name, this.imageLink, this.description, [this.isLiked]);
 }
+
+List<mythicalCreature> favoriteCreatures = [];
 
 final List<mythicalCreature> myList = <mythicalCreature>[
   mythicalCreature(
@@ -26,25 +28,17 @@ final List<mythicalCreature> myList = <mythicalCreature>[
     'Abatwa',
     'blank',
     'The Abatwa are extremely small men; they "go under the grass, and sleep in anthills." They travel in the mist and live in the upcountry in the rocks; and they have no village. They are wholly nomadic, and kill large animals with poisoned arrows; and when they\'ve killed an animal, they eat every piece of it leaving nothing behind. If an area has no more animals to hunt, the Abatwa gather together and ride on a horse\'s back single-file from neck to tail to go look for better hunting grounds... and if they don\'t find something, they eat the horse. The Abatwa represent a great danger to the Zulu (people who are an Nguni ethnic group in Southern Africa)because they are armed with poisoned arrows which caused uncontrollable bleeding... which is why an Umutwa (the proper name for a single Abatwa) can hunt and kill large animals, but also makes a single Abatwa arrow deadly to a full sized Zulu. So Zulu had to be careful in how they treated any Abatwa they might encounter, and there was one major point the Zuuhad to keep in mind: Abatwa hated being told or reminded they were tiny. Any indication from a Zulu that they felt an Umutwa was small would instantly result in the Zulu being shot and killed! For this reason, the Zulu have adapted the rather unusual greeting of "I saw you!" when encountering any Abatwa. If the tiny warrior then asks the Zulu where he saw them from, the Zulu needs to answer in a way that implies a great size to the minuscule threat, such as "I saw you from that mountain over there." Such a greeting only works, however, if the Umutwa is somehow seen or detected; the true dreadfulness of the Abatwa comes from the very fact that their size makes them almost invisible in most circumstances. An Umutwa could shoot and kill a Zulu who nearly stepped on him without the Zulu ever seeing the being that has killed them... an attacking animal or a murderous man could be faced and dealt with, but the possibility of being killed in a way that cannot be reacted to, that ignores your personal strengths and capabilities, is truly dreadful. This worry prevents sleep and est, for the only comfort is too avoid the territory of the Abatwa altogether.',
+  ),
+  mythicalCreature(
+    'Abominable Snowman',
+    'blank',
+    'Abominable Snowman, Tibetan Yeti, mythical monster resembling a large, hairy, apelike being supposed to inhabit the Himalayas at about the level of the snow line. Though reports of actual sightings of such a creature are rare, certain mysterious markings in the snow have traditionally been attributed to it. Those not caused by lumps of snow or stones falling from higher regions and bouncing across the lower slopes have probably been produced by bears. At certain gaits, bears place the hindfoot partly over the imprint of the forefoot, thus making a very large imprint that looks deceptively like an enormous human footprint positioned in the opposite direction. ',
+  ),
+  mythicalCreature(
+    'Adarna',
+    'blank',
   )
 ];
-
-List<mythicalCreature> favoriteCreatures = [];
-
-Map Abatwa = {
-  'image': 'blank',
-  'title': 'Abatwa',
-  'text': 'The Abatwa are extremely small men; they "go under the grass, and sleep in anthills." They travel in the mist and live in the upcountry in the rocks; and they have no village. They are wholly nomadic, and kill large animals with poisoned arrows; and when they\'ve killed an animal, they eat every piece of it leaving nothing behind. If an area has no more animals to hunt, the Abatwa gather together and ride on a horse\'s back single-file from neck to tail to go look for better hunting grounds... and if they don\'t find something, they eat the horse. The Abatwa represent a great danger to the Zulu (people who are an Nguni ethnic group in Southern Africa)because they are armed with poisoned arrows which caused uncontrollable bleeding... which is why an Umutwa (the proper name for a single Abatwa) can hunt and kill large animals, but also makes a single Abatwa arrow deadly to a full sized Zulu. So Zulu had to be careful in how they treated any Abatwa they might encounter, and there was one major point the Zuuhad to keep in mind: Abatwa hated being told or reminded they were tiny. Any indication from a Zulu that they felt an Umutwa was small would instantly result in the Zulu being shot and killed! For this reason, the Zulu have adapted the rather unusual greeting of "I saw you!" when encountering any Abatwa. If the tiny warrior then asks the Zulu where he saw them from, the Zulu needs to answer in a way that implies a great size to the minuscule threat, such as "I saw you from that mountain over there." Such a greeting only works, however, if the Umutwa is somehow seen or detected; the true dreadfulness of the Abatwa comes from the very fact that their size makes them almost invisible in most circumstances. An Umutwa could shoot and kill a Zulu who nearly stepped on him without the Zulu ever seeing the being that has killed them... an attacking animal or a murderous man could be faced and dealt with, but the possibility of being killed in a way that cannot be reacted to, that ignores your personal strengths and capabilities, is truly dreadful. This worry prevents sleep and est, for the only comfort is too avoid the territory of the Abatwa altogether.',
-  'index': 3,
-  'isLiked': false
-};
-
-Map Abominable_Snowman = {
-  'image': 'blank',
-  'title': 'Abominable Snowman',
-  'text': 'Abominable Snowman, Tibetan Yeti, mythical monster resembling a large, hairy, apelike being supposed to inhabit the Himalayas at about the level of the snow line. Though reports of actual sightings of such a creature are rare, certain mysterious markings in the snow have traditionally been attributed to it. Those not caused by lumps of snow or stones falling from higher regions and bouncing across the lower slopes have probably been produced by bears. At certain gaits, bears place the hindfoot partly over the imprint of the forefoot, thus making a very large imprint that looks deceptively like an enormous human footprint positioned in the opposite direction. ',
-  'index': 4
-};
 
 Map Adarna = {
   'image': 'blank',
