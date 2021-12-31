@@ -6,15 +6,21 @@ class mythicalCreature {
   mythicalCreature(this.name, this.imageLink, this.description, {this.isLiked});
 }
 
-List<mythicalCreature> myList = [];
+final List<mythicalCreature> myList = <mythicalCreature>[
+  mythicalCreature(
+    'Abibail',
+    'blank',
+    'Refers to the miraculous birds in Islamic belief mentioned in the Quran that protected the Ka\'ba in Mecca from the Aksumite elephant army of Abraha, then self-styled governor of Himyar, by dropping small clay stones on them as they approached.  The actual phrase from the Quran from which the word is derived from translates as "birds in flocks".  The event is said to have occurred in 570, the year that the Islamic prophet Mohammed was born. ',
+  ),
+];
 
 void instantiateListOfCreatures() {
-  mythicalCreature Ababil = mythicalCreature(
+  /*mythicalCreature Ababil = mythicalCreature(
     'Abibail',
     'blank',
     'Refers to the miraculous birds in Islamic belief mentioned in the Quran that protected the Ka\'ba in Mecca from the Aksumite elephant army of Abraha, then self-styled governor of Himyar, by dropping small clay stones on them as they approached.  The actual phrase from the Quran from which the word is derived from translates as "birds in flocks".  The event is said to have occurred in 570, the year that the Islamic prophet Mohammed was born. ',
   );
-  myList.add(Ababil);
+  myList.add(Ababil);*/
   mythicalCreature Abaia = mythicalCreature(
     'Abaia',
     'blank',
