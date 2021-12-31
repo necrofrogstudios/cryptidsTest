@@ -121,6 +121,9 @@ void favoritesSetUp(SharedPreferences prefs) {
     prefs.setBool('firstBoot', false);
   } else {
     for (int i = 0; i < myList.length; i++) {
+      if (prefs.getBool(myList[i].name + 'fav') == null) {
+        prefs.setBool(myList[i].name + 'fav', false);
+      }
       myList[i].isLiked = prefs.getBool(myList[i].name + 'fav');
       if (prefs.getBool(myList[i].name + 'fav')) {
         favoriteCreatures.add(myList[i]);
