@@ -540,5 +540,5 @@ final List<mythicalCreature> myList = <mythicalCreature>[
     'Cerastes',
     'blank',
     'The cerastes is a creature of Greek legend, a serpent that is incredibly flexible—so much so that it is said to have no spine. Cerastae can have either two large ram-like horns or two pairs of smaller horns. The cerastes hides its head in the sand with only the horns protruding out of the surface; this is meant to deceive other animals into thinking it is food. When the animal approaches the cerastes, the cerastes promptly kills it. The legend is most likely derived from the habits of the horned viper, whose genus, Cerastes, is named after the mythological creature. They are desert-dwelling animals, which can have horn-like protrusions over their eyes, and are ambush predators, though not nearly large enough to take prey items much larger than a mouse or small lizard. Leonardo da Vinci wrote the following on the cerastes: This has four movable little horns; so, when it wants to feed, it hides under leaves all of its body except these little horns which, as they move, seem to the birds to be some small worms at play. Then they immediately swoop down to pick them and the Cerastes suddenly twines round them and encircles and devours them.',
-  )
+  ),
 ];
