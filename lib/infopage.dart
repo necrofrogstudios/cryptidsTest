@@ -20,20 +20,20 @@ class _infoState extends State<infopage> {
   final currentScreen = _infoState;
 
   final ItemScrollController _itemScrollController = ItemScrollController();
-  final ItemPositionsListener itemPositionsListener = ItemPositionsListener.create();
+  final ItemPositionsListener itemPositionsListener =
+      ItemPositionsListener.create();
 
   void _scrollToIndex(int index) {
-    if (index < 1) {
-      _itemScrollController.jumpTo(index: index);
-    } else {
-      _itemScrollController.jumpTo(index: 0);
-      _itemScrollController.scrollTo(index: index, duration: Duration(milliseconds: 800), curve: Curves.linear);
-    }
+    _itemScrollController.scrollTo(
+        index: index,
+        duration: Duration(seconds: 1),
+        curve: Curves.easeInOutCubic);
   }
 
   void initState() {
     super.initState();
-    WidgetsBinding.instance.addPostFrameCallback((_) => _scrollToIndex(myList.indexOf(data)));
+    WidgetsBinding.instance
+        .addPostFrameCallback((_) => _scrollToIndex(myList.indexOf(data)));
   }
 
   List<mythicalCreature> newMyList = List.from(myList);
