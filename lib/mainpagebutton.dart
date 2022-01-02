@@ -6,6 +6,25 @@ import 'data.dart';
 import 'main.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+class mainPageButtonList extends StatelessWidget {
+  List newMyList;
+  mainPageButtonList(this.newMyList);
+  Widget build(BuildContext context) {
+    print(expandingHomeScreen);
+    if (!expandingHomeScreen) {
+      return ListView(
+        physics: NeverScrollableScrollPhysics(),
+        shrinkWrap: true,
+        children: newMyList.map((data) {
+          return Card(child: mainpagebutton(data));
+        }).toList(),
+      );
+    } else {
+      return Text('Expandable Home Screen is enabled');
+    }
+  }
+}
+
 class mainpagebutton extends StatefulWidget {
   final mythicalCreature data;
   mainpagebutton(this.data);

@@ -6,6 +6,8 @@ class mythicalCreature {
   mythicalCreature(this.name, this.imageLink, this.description, [this.isLiked]);
 }
 
+bool expandingHomeScreen = false;
+
 List<mythicalCreature> favoriteCreatures = [];
 
 final List<mythicalCreature> myList = <mythicalCreature>[

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'drawer.dart';
 import 'main.dart';
-import 'package:scrolltest/alphabetizedContainersSwitch';
+import 'package:scrolltest/expandingHomeScreenSwitch.dart';
 
 class MyApp extends StatelessWidget {
   // Using "static" so that we can easily access it later
@@ -57,7 +57,7 @@ class settings extends StatelessWidget {
       ),
       body: Column(
         children: <Widget>[
-          alphabetizedContainersSwitch(),
+          expandingHomeScreenSwitch(),
         ],
       ),
       drawer: drawer(currentScreen),
