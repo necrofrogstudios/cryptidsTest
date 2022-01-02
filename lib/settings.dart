@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import 'drawer.dart';
 import 'main.dart';
+import 'package:scrolltest/alphabetizedContainersSwitch';
 
 class MyApp extends StatelessWidget {
   // Using "static" so that we can easily access it later
-  static final ValueNotifier<ThemeMode> themeNotifier = ValueNotifier(ThemeMode.dark);
+  static final ValueNotifier<ThemeMode> themeNotifier =
+      ValueNotifier(ThemeMode.dark);
 
   @override
   Widget build(BuildContext context) {
@@ -41,12 +43,22 @@ class settings extends StatelessWidget {
         backgroundColor: Colors.purple,
         actions: [
           IconButton(
-              icon: Icon(MyApp.themeNotifier.value == ThemeMode.light ? Icons.wb_sunny : Icons.brightness_2),
+              icon: Icon(MyApp.themeNotifier.value == ThemeMode.light
+                  ? Icons.wb_sunny
+                  : Icons.brightness_2),
               onPressed: () {
-                MyApp.themeNotifier.value = MyApp.themeNotifier.value == ThemeMode.light ? ThemeMode.dark : ThemeMode.light;
+                MyApp.themeNotifier.value =
+                    MyApp.themeNotifier.value == ThemeMode.light
+                        ? ThemeMode.dark
+                        : ThemeMode.light;
               })
         ],
         actionsIconTheme: IconThemeData(color: Colors.white, size: 30),
+      ),
+      body: Column(
+        children: <Widget>[
+          alphabetizedContainersSwitch(),
+        ],
       ),
       drawer: drawer(currentScreen),
     );

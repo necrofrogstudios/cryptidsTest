@@ -1,4 +1,3 @@
-  Cerastes,
   Cerberus,
   Ceryneian_Hind,
   Cetan,
