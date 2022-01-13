@@ -9,6 +9,10 @@
         android:name="io.flutter.app.FlutterApplication"
         android:label="scrolltest"
         android:icon="@mipmap/ic_launcher">
+        <meta-data
+    android:name="com.google.android.gms.ads.APPLICATION_ID"
+    android:value="ca-app-pub-3940256099942544~3347511713"/>
+    <!-- change to  ca-app-pub-1772118121041384~4861377658 when publishing to app store-->
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
