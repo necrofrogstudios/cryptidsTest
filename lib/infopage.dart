@@ -3,6 +3,8 @@ import 'drawer.dart';
 import 'data.dart';
 import 'infopagelayout.dart';
 import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
+import 'ads/ad_helper.dart';
 
 class infopage extends StatefulWidget {
   final data;
@@ -18,10 +20,30 @@ class _infoState extends State<infopage> {
   Widget customSearchBar = const Text('Cryptids');
   _infoState(this.data);
   final currentScreen = _infoState;
-
+  BannerAd _bottomBannerAd;
+  bool _isBottomBannerAdLoaded = false;
   final ItemScrollController _itemScrollController = ItemScrollController();
   final ItemPositionsListener itemPositionsListener =
       ItemPositionsListener.create();
+
+  void _createBottomBannerAd() {
+    _bottomBannerAd = BannerAd(
+      adUnitId: AdHelper.bannerAdUnitId,
+      size: AdSize.banner,
+      request: AdRequest(),
+      listener: BannerAdListener(
+        onAdLoaded: (_) {
+          setState(() {
+            _isBottomBannerAdLoaded = true;
+          });
+        },
+        onAdFailedToLoad: (ad, error) {
+          ad.dispose();
+        },
+      ),
+    );
+    _bottomBannerAd.load();
+  }
 
   void _scrollToIndex(int index) {
     _itemScrollController.scrollTo(
@@ -32,8 +54,14 @@ class _infoState extends State<infopage> {
 
   void initState() {
     super.initState();
+    _createBottomBannerAd();
     WidgetsBinding.instance
         .addPostFrameCallback((_) => _scrollToIndex(myList.indexOf(data)));
+  }
+
+  void dispose() {
+    super.dispose();
+    _bottomBannerAd.dispose();
   }
 
   List<mythicalCreature> newMyList = List.from(myList);
@@ -125,6 +153,13 @@ class _infoState extends State<infopage> {
           ),
         ),
       ),
+      bottomNavigationBar: _isBottomBannerAdLoaded
+          ? Container(
+              height: _bottomBannerAd.size.height.toDouble(),
+              width: _bottomBannerAd.size.width.toDouble(),
+              child: AdWidget(ad: _bottomBannerAd),
+            )
+          : null,
     );
   }
 }

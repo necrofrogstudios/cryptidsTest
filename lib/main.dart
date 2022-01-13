@@ -4,10 +4,12 @@ import 'mainpagebutton.dart';
 import 'data.dart';
 import 'splash.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   final prefs = await SharedPreferences.getInstance();
+  MobileAds.instance.initialize();
   favoritesSetUp(prefs); //gets favorites from storage
   settingsSetUp(prefs); //gets settings from storage
   prefs.setBool('firstBoot', false);
