@@ -1,4 +1,4 @@
-# scrolltest
+# cryptid_chaos
 
 A new Flutter project created with [FlutLab](https://flutlab.io)
 

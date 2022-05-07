@@ -1,4 +1,4 @@
-package com.example.scrolltest
+package com.necrofrog.cryptids
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity

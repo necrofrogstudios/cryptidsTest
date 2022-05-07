@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:scrolltest/data.dart';
+import 'package:cryptid_chaos/data.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class expandingHomeScreenSwitch extends StatefulWidget {
